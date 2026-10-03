@@ -132,7 +132,7 @@ export const EnquiryChatbotSection: React.FC<EnquiryChatbotSectionProps> = ({
     // Call Backend /api/chat endpoint with seamless client-side fallback
     const fetchBotResponse = async () => {
       try {
-        const response = await fetch('/api/chat', {
+        const response = await fetch('https://vctm-college-enquiry-chatbot.onrender.com/api/chat', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
