@@ -201,7 +201,13 @@ def process_chat_message(req: ChatQueryRequest):
             classification["predictedIntent"] = "departments"
             entities["entity"] = "Training & Placement"
             entities["attributes"] = ["tpo_name"]
-        elif re.fullmatch(r"(?:ok\s+)?placements?\s+details[?.!]*", normalized_query):
+        elif re.fullmatch(
+            r"(?:(?:ok\s+)?placements?\s+details|"
+            r"details\s+(?:of|about)\s+(?:the\s+)?placement\s+cell|"
+            r"(?:the\s+)?placement\s+cell(?:\s+details?)?|"
+            r"what\s+does\s+(?:the\s+)?placement\s+cell\s+do)[?.!]*",
+            normalized_query,
+        ):
             classification["predictedIntent"] = "placements"
             entities["entity"] = "VCTM Placement Cell"
             entities["attributes"] = ["overview"]

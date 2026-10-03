@@ -44,6 +44,13 @@ class TestAPIEndpoints(unittest.TestCase):
         data = res.json()
         self.assertIn("not offered at VCTM", data["text"])
 
+    def test_chat_endpoint_placement_cell_details(self):
+        res = client.post("/api/chat", json={"query": "details of placement cell"})
+        self.assertEqual(res.status_code, 200)
+        data = res.json()
+        self.assertEqual(data["classification"]["predictedIntent"], "placements")
+        self.assertIn("Dedicated Career Resource Center", data["text"])
+
     def test_model_info(self):
         res = client.get("/api/model/info")
         self.assertEqual(res.status_code, 200)
@@ -52,4 +59,3 @@ class TestAPIEndpoints(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
