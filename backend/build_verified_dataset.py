@@ -1240,8 +1240,8 @@ VERIFIED_ENTRIES = [
         "attribute": "highest_package",
         "academic_year": "2025-2026",
         "source_url": "https://vctm.in/pages/Placement%20Records",
-        "verification_status": "officially_unavailable",
-        "answer": "The highest salary package is not officially published on the VCTM website.",
+        "verification_status": "third_party_reported",
+        "answer": "A single official highest-package figure is not officially published by VCTM's placement pages or established by its placement records. A student review has reported approximately ₹4-₹5 LPA; this is a third-party/student-reported figure, not an official VCTM statistic, and may vary by batch, course, and year.",
         "questions": [
             "What is the highest package in placement?",
             "What is the highest package at VCTM?",
@@ -1268,8 +1268,8 @@ VERIFIED_ENTRIES = [
         "attribute": "average_package",
         "academic_year": "2025-2026",
         "source_url": "https://vctm.in/pages/Placement%20Records",
-        "verification_status": "officially_unavailable",
-        "answer": "The average salary package is not officially published on the VCTM website.",
+        "verification_status": "third_party_reported",
+        "answer": "The average package is not officially published by VCTM. Student/third-party reports cite approximately ₹2.3-₹2.5 LPA; this is not an official VCTM statistic, may vary by batch, course, and year, and other reports give different figures.",
         "questions": [
             "What is the average package in placement?",
             "What is the average package at VCTM?",
@@ -1292,8 +1292,8 @@ VERIFIED_ENTRIES = [
         "attribute": "placement_rate",
         "academic_year": "2025-2026",
         "source_url": "https://vctm.in/pages/Career%20Resource%20Center%20Department",
-        "verification_status": "officially_unavailable",
-        "answer": "The overall placement rate or percentage is not officially published on the VCTM website.",
+        "verification_status": "third_party_reported",
+        "answer": "VCTM does not appear to publish a single official placement-rate statistic on its placement pages. A student/third-party report has mentioned around 60%, but this should be treated as a reported figure rather than an official VCTM statistic; figures may vary by batch, course, and year.",
         "questions": [
             "What is the placement percentage at VCTM?",
             "placement rate",
@@ -1302,6 +1302,18 @@ VERIFIED_ENTRIES = [
             "How many percent students get placed?",
             "placement success rate",
             "placement percentage"
+        ]
+    },
+    {
+        "intent": "placements",
+        "entity": "VCTM Placement Cell",
+        "attribute": "lowest_package",
+        "academic_year": "2025-2026",
+        "source_url": "https://vctm.in/pages/Placement%20Records",
+        "verification_status": "third_party_reported",
+        "answer": "A student/third-party report has mentioned a lowest package of approximately ₹1.2 LPA. This is not an official VCTM statistic and may vary by batch, course, and year; other student/third-party reports give different figures.",
+        "questions": [
+            "What is the lowest package reported at VCTM?"
         ]
     },
     {
@@ -1344,7 +1356,7 @@ VERIFIED_ENTRIES = [
         "academic_year": "2025-2026",
         "source_url": "https://vctm.in/pages/Our%20Recruiter%20and%20Associates",
         "verification_status": "verified",
-        "answer": "Corporate recruiters and associates of VCTM include:\n• **IT & Software:** IBM Ltd., Wipro Technologies, L&T Infotech, HCL Technologies, Microsoft, Samsung, Accenture, CSC, Tata Communications, Tata Teleservices, Prometric, Accel Frontline\n• **Engineering & Infrastructure:** Indus Towers, APCO Infratech, Portwise, Hero Electric, Elux, Bajaj Motors\n• **Management & Corporate:** IndiaMART, Axis Bank, Amazon Pay, Just Dial, Ashok Auto Sales, Square Yards",
+        "answer": "VCTM's official placement records list student names, courses, and recruiting companies. Companies appearing in the official records include Tech Mahindra, Amazon Pay, Axis Bank, Bajaj Motors, Yazaki India, L&T, Capgemini, C-Core Technologies, UV Solutions, SKD Properties & Constructions, KP Reliable Technique India, Ashok Auto Sales, Just Dial, NSS Technology, Tanishq, DNJ Infotech, Collabera, Mitsuba Sical India, MEP Solutions, Square Yard, Indian Oil, TKQ India, Voltrans, Motherson Automotive Tech, NetAmbit, TYM SE India, Yuva Shakti, and Zeneva Crop Science. This is a list of companies present in the records, not a guarantee of current or future recruitment.",
         "questions": [
             "Which companies visit VCTM for placements?",
             "recruiters",
@@ -1398,7 +1410,7 @@ VERIFIED_ENTRIES = [
         "academic_year": "2025-2026",
         "source_url": "https://vctm.in/pages/Career%20Resource%20Center%20Department",
         "verification_status": "verified",
-        "answer": "VCTM Placements Summary:\n• **Placement Cell:** Dedicated Career Resource Center (CRC) headed by Dr. Vivek Thakur (TPO)\n• **Recruiters:** IBM, Wipro, L&T, HCL, Microsoft, Samsung, Accenture, Indus Towers, Bajaj Motors, Axis Bank\n• **Note on Statistics:** Highest package, average package, and placement rate % are not officially published on the college website.",
+        "answer": "The Dedicated Career Resource Center (CRC), led by Training & Placement Officer Dr. Vivek Thakur, provides career counselling, resume preparation, mock interviews, group discussions, presentation workshops, technical tests, recruitment coordination, internships, and industry interaction. Official placement activities include career counselling sessions; soft-skill and technical-skill development; group discussion, interview, and online-test preparation; campus placements; industry meets and expert lectures; 6-8 week industrial training; semester industrial visits; student projects; faculty industry training; career-orientation programmes; and entrepreneurship development. VCTM publishes placement records listing student names, courses, and recruiting companies. Examples from those records include Tech Mahindra, Amazon Pay, Axis Bank, Bajaj Motors, Yazaki India, L&T, Capgemini, and C-Core Technologies. VCTM's official placement records do not establish a single official placement rate or highest/average package.",
         "questions": [
             "How are the placements at VCTM?",
             "placements",
@@ -1406,6 +1418,18 @@ VERIFIED_ENTRIES = [
             "placement overview",
             "Is placement good in VCTM?",
             "placement records"
+        ]
+    },
+    {
+        "intent": "placements",
+        "entity": "VCTM Placement Cell",
+        "attribute": "overview",
+        "academic_year": "2025-2026",
+        "source_url": "https://vctm.in/pages/Placement%20Activities",
+        "verification_status": "verified",
+        "answer": "The Dedicated Career Resource Center (CRC), led by Training & Placement Officer Dr. Vivek Thakur, provides career counselling, resume preparation, mock interviews, group discussions, presentation workshops, technical tests, recruitment coordination, internships, and industry interaction. Official placement activities include career counselling sessions; soft-skill and technical-skill development; group discussion, interview, and online-test preparation; campus placements; industry meets and expert lectures; 6-8 week industrial training; semester industrial visits; student projects; faculty industry training; career-orientation programmes; and entrepreneurship development. VCTM publishes placement records listing student names, courses, and recruiting companies. Examples from those records include Tech Mahindra, Amazon Pay, Axis Bank, Bajaj Motors, Yazaki India, L&T, Capgemini, and C-Core Technologies.",
+        "questions": [
+            "What placement activities does VCTM offer?"
         ]
     },
 
