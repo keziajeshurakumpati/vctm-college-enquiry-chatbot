@@ -133,6 +133,37 @@ class KnowledgeRetriever:
         Returns ONLY what was asked for.
         """
         q_lower = query.lower().strip()
+        unsupported_programs = [
+            "MBBS", "BDS", "B.Pharm", "D.Pharm", "LLB", "BA LLB", "B.Ed",
+            "B.Sc Nursing", "B.Arch", "Ph.D", "Aeronautical Engineering",
+            "Aerospace Engineering", "Biotechnology", "Chemical Engineering", "BCA", "BBA",
+        ]
+        unsupported_match = next(
+            (
+                program for program in unsupported_programs
+                if re.search(rf"\b{re.escape(program.lower())}\b", q_lower)
+            ),
+            None,
+        )
+        if unsupported_match:
+            return {
+                "text": (
+                    f"No, **{unsupported_match} is not offered at VCTM**.\n\n"
+                    "Vivekananda College of Technology & Management (Aligarh · AKTU Code: **340**, "
+                    "BTE Code: **1628**) offers approved programs in:\n"
+                    "• **B.Tech (4 Years):** CSE, IT, ECE, Mechanical, Civil, Electrical, "
+                    "Agricultural Engineering\n"
+                    "• **Postgraduate (2 Years):** MBA, MCA, M.Tech (Production & Structural)\n"
+                    "• **Polytechnic Diploma (3 Years):** Civil Engineering, Mechanical Engineering"
+                ),
+                "sourceReference": "VCTM Academic Intake Directory (vctm.in)",
+                "suggestedFollowUps": [
+                    "What courses are offered?",
+                    "What is the B.Tech eligibility?",
+                    "How can I contact the college?",
+                ],
+            }
+
         entity = entities.get("entity") or entities.get("course")
         attributes = list(entities.get("attributes", []))
 
@@ -186,7 +217,10 @@ class KnowledgeRetriever:
                 "suggestedFollowUps": ["What courses are offered?", "What is the intake for B.Tech CSE?", "How are the placements?"]
             }
 
-        if predicted_intent == "thanks" or re.search(r"\b(thank\s+you|thanks|thankyou|ok|okay|got\s+it|understood|alright)\b", q_lower):
+        if predicted_intent == "thanks" or re.fullmatch(
+            r"(?:thank\s+you|thanks(?:\s+a\s+lot)?|thankyou|ok|okay|got\s+it|understood|alright)[!. ]*",
+            q_lower,
+        ):
             record = self.find_exact_record("thanks")
             return {
                 "text": record["answer"] if record else "You're welcome! Feel free to ask if you have any more questions about VCTM.",

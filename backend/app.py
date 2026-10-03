@@ -12,9 +12,11 @@ Integrates:
 
 import logging
 import os
+import re
 import sys
 import time
 from typing import Dict, List, Optional
+import requests
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -79,6 +81,87 @@ def health_check():
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     }
 
+def is_vctm_related_query(query: str) -> bool:
+    """Identifies questions within the college enquiry assistant's scope."""
+    return bool(re.search(
+        r"\b(vctm|colleges?|campuses?|institutions?|institutes?|admissions?|courses?|"
+        r"programs?|programmes?|fees?|tuition|scholarships?|eligibility|hostels?|"
+        r"placements?|tpo|faculty|faculties|hod|departments?|libraries|transport(?:ation)?|buses?|"
+        r"aktu|bte|attendance|exams?|examinations?|cutoff|cut\s+off|engineering|"
+        r"b\.?\s?tech|mba|mca|m\.?\s?tech|diplomas?|facilit(?:y|ies)|mess)\b",
+        query,
+        re.IGNORECASE,
+    ))
+
+def generate_groq_fallback(query: str) -> Optional[str]:
+    """Answers unsupported or uncertain VCTM queries using verified context only."""
+    api_key = os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        logger.warning("Groq fallback requested, but GROQ_API_KEY is not configured.")
+        return None
+
+    query_terms = {
+        term for term in re.findall(r"\b[a-z0-9]+\b", query.lower())
+        if len(term) > 2 and term not in {
+            "about", "are", "can", "does", "for", "how", "the", "this",
+            "what", "when", "where", "which", "who", "why", "with"
+        }
+    }
+    relevant_records = []
+    for record in knowledge_retriever.qa_records:
+        if record.get("verification_status") not in {"verified", "officially_unavailable"}:
+            continue
+        record_text = " ".join(
+            str(record.get(field, ""))
+            for field in ("question", "entity", "attribute", "answer")
+        )
+        overlap = len(query_terms & set(re.findall(r"\b[a-z0-9]+\b", record_text.lower())))
+        if overlap:
+            relevant_records.append((overlap, record))
+    relevant_records.sort(key=lambda item: item[0], reverse=True)
+    context = "\n".join(
+        f"Q: {record['question']}\nVerified answer: {record['answer']}"
+        for _, record in relevant_records[:5]
+    ) or "No directly relevant verified VCTM knowledge-base records were found."
+
+    payload = {
+        "model": "llama-3.3-70b-versatile",
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "You are strictly a VCTM College Enquiry Assistant, not a general-purpose "
+                    "assistant. Answer only VCTM/college-related questions, using only the supplied "
+                    "verified VCTM knowledge-base context. If it does not contain the answer, say "
+                    "the information is not available in the verified information. Never invent "
+                    "college facts. Refuse general-knowledge requests (including programming, "
+                    "science, weather, jokes, and current events), even if VCTM is mentioned incidentally."
+                ),
+            },
+            {
+                "role": "user",
+                "content": f"Verified VCTM knowledge-base context:\n{context}\n\nQuestion: {query}",
+            },
+        ],
+        "temperature": 0.2,
+        "max_tokens": 350,
+    }
+    try:
+        response = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}"},
+            json=payload,
+            timeout=20,
+        )
+        response.raise_for_status()
+        answer = response.json()["choices"][0]["message"]["content"]
+        if isinstance(answer, str) and answer.strip():
+            return answer.strip()
+        logger.warning("Groq fallback returned an empty answer.")
+    except (requests.RequestException, KeyError, IndexError, TypeError, ValueError) as exc:
+        logger.warning("Groq fallback failed: %s", exc)
+    return None
+
 @app.post("/api/predict")
 def predict_intent(req: PredictRequest):
     """
@@ -110,13 +193,51 @@ def process_chat_message(req: ChatQueryRequest):
         
         # 2. Extract specific programme/entity (e.g. B.Tech CSE vs MBA)
         entities = entity_extractor.extract(query, req.activeCourseContext)
+        normalized_query = query.lower().strip()
+        if re.fullmatch(
+            r"(?:the\s+)?(?:tpo(?:\s+officer)?|training\s+and\s+placement\s+officer)",
+            normalized_query,
+        ):
+            classification["predictedIntent"] = "departments"
+            entities["entity"] = "Training & Placement"
+            entities["attributes"] = ["tpo_name"]
+        elif re.fullmatch(r"(?:ok\s+)?placements?\s+details[?.!]*", normalized_query):
+            classification["predictedIntent"] = "placements"
+            entities["entity"] = "VCTM Placement Cell"
+            entities["attributes"] = ["overview"]
         classification["extractedEntities"] = entities
         
         predicted_intent = classification["predictedIntent"]
         
         # 3. Retrieve verified response from official VCTM knowledge base
         bot_response = knowledge_retriever.retrieve_response(query, predicted_intent, entities)
-        
+
+        simple_conversation = bool(re.fullmatch(
+            r"(?:hi|hello|hey|namaste|good\s+morning|good\s+afternoon|good\s+evening|"
+            r"thank\s+you|thanks(?:\s+a\s+lot)?|thankyou|ok|okay|got\s+it|understood|"
+            r"alright|bye|goodbye|see\s+you|exit)[!. ]*",
+            query.lower().strip(),
+        ))
+        if not is_vctm_related_query(query) and not simple_conversation:
+            bot_response = {
+                "text": (
+                    "I'm the VCTM College Enquiry Assistant. I can help with VCTM courses, "
+                    "admissions, fees, eligibility, scholarships, facilities, placements, "
+                    "and other college-related questions."
+                ),
+                "sourceReference": "VCTM College Enquiry Assistant",
+            }
+        elif is_vctm_related_query(query) and (
+            bot_response.get("cardType") == "fallback_card"
+            or predicted_intent == "fallback"
+        ):
+            groq_answer = generate_groq_fallback(query)
+            if groq_answer:
+                bot_response["text"] = groq_answer
+                bot_response["sourceReference"] = "AI-generated response"
+                bot_response.pop("cardType", None)
+                bot_response.pop("cardData", None)
+
         # 4. Construct complete response payload
         bot_timestamp = time.strftime("%I:%M %p")
         
