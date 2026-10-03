@@ -1,0 +1,6 @@
+{
+  "name": "VCTM College Enquiry Chatbot",
+  "description": "Smart college enquiry chatbot for VCTM powered by TF-IDF vectorization and Logistic Regression ML classification, delivering verified information on admissions, fees, eligibility, scholarships, hostels, and placements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

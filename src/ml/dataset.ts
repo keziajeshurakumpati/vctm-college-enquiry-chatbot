@@ -1,0 +1,3099 @@
+import { IntentType, TrainingExample } from '../types/chatbot';
+
+export const TRAINING_DATASET: TrainingExample[] = [
+  {
+    "text": "What is the AKTU college code for VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the AKTU code of VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is VCTM AKTU code?",
+    "intent": "course_details"
+  },
+  {
+    "text": "aktu code",
+    "intent": "course_details"
+  },
+  {
+    "text": "AKTU college code",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the college code for AKTU counseling?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Which AKTU code to fill for VCTM in counseling?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Tell me the AKTU code of Vivekananda college",
+    "intent": "course_details"
+  },
+  {
+    "text": "aktu code 340",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the code of VCTM in AKTU?",
+    "intent": "course_details"
+  },
+  {
+    "text": "VCTM counseling code AKTU",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the AKTU code?",
+    "intent": "course_details"
+  },
+  {
+    "text": "AKTU code please",
+    "intent": "course_details"
+  },
+  {
+    "text": "counseling code for btech aktu",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the BTE college code?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the BTE UP code of VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the BTE code for polytechnic?",
+    "intent": "course_details"
+  },
+  {
+    "text": "bte code",
+    "intent": "course_details"
+  },
+  {
+    "text": "BTE UP code",
+    "intent": "course_details"
+  },
+  {
+    "text": "Polytechnic college code BTE",
+    "intent": "course_details"
+  },
+  {
+    "text": "Which BTE code is used for diploma counseling?",
+    "intent": "course_details"
+  },
+  {
+    "text": "BTE code 1628",
+    "intent": "course_details"
+  },
+  {
+    "text": "Tell me the Board of Technical Education code for VCTM",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the polytechnic board code?",
+    "intent": "course_details"
+  },
+  {
+    "text": "bte code please",
+    "intent": "course_details"
+  },
+  {
+    "text": "What are the college codes for VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Give me the institutional codes of VCTM",
+    "intent": "course_details"
+  },
+  {
+    "text": "What are the AKTU and BTE codes?",
+    "intent": "course_details"
+  },
+  {
+    "text": "college codes",
+    "intent": "course_details"
+  },
+  {
+    "text": "VCTM codes",
+    "intent": "course_details"
+  },
+  {
+    "text": "both codes of VCTM",
+    "intent": "course_details"
+  },
+  {
+    "text": "institutional code",
+    "intent": "course_details"
+  },
+  {
+    "text": "counseling codes",
+    "intent": "course_details"
+  },
+  {
+    "text": "Is VCTM AICTE approved?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Are courses approved by AICTE?",
+    "intent": "course_details"
+  },
+  {
+    "text": "AICTE approval status",
+    "intent": "course_details"
+  },
+  {
+    "text": "Does VCTM have AICTE approval?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Is Vivekananda college recognized by government?",
+    "intent": "course_details"
+  },
+  {
+    "text": "aicte approval",
+    "intent": "course_details"
+  },
+  {
+    "text": "Which university is VCTM affiliated to?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the affiliating university of VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Is VCTM affiliated to AKTU?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Affiliated university",
+    "intent": "course_details"
+  },
+  {
+    "text": "Which board does VCTM follow?",
+    "intent": "course_details"
+  },
+  {
+    "text": "affiliations of vctm",
+    "intent": "course_details"
+  },
+  {
+    "text": "When was VCTM established?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the establishment year of VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "When was Vivekananda college founded?",
+    "intent": "course_details"
+  },
+  {
+    "text": "established year",
+    "intent": "course_details"
+  },
+  {
+    "text": "In which year was VCTM started?",
+    "intent": "course_details"
+  },
+  {
+    "text": "foundation year of vctm",
+    "intent": "course_details"
+  },
+  {
+    "text": "What institutions are under Vivekananda group?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Tell me about Vivekananda Group of Colleges",
+    "intent": "course_details"
+  },
+  {
+    "text": "What sister colleges exist under NL Educational Society?",
+    "intent": "course_details"
+  },
+  {
+    "text": "group institutions of VCTM",
+    "intent": "course_details"
+  },
+  {
+    "text": "sister colleges",
+    "intent": "course_details"
+  },
+  {
+    "text": "colleges under vivekananda society",
+    "intent": "course_details"
+  },
+  {
+    "text": "Who is the Chairman of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is Chairman of Vivekananda college?",
+    "intent": "departments"
+  },
+  {
+    "text": "chairman name",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the management at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Chairman Er YK Sharma",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Chairman?",
+    "intent": "departments"
+  },
+  {
+    "text": "chairman of the college",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Vice Chairperson of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Vice chairperson name",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is Vice Chairperson of Vivekananda college?",
+    "intent": "departments"
+  },
+  {
+    "text": "vice chairman of vctm",
+    "intent": "departments"
+  },
+  {
+    "text": "vice chairperson",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Vice Chancellor of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "vice chancellor",
+    "intent": "departments"
+  },
+  {
+    "text": "VC of VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "who is the vice chancellor",
+    "intent": "departments"
+  },
+  {
+    "text": "vice chancellor details",
+    "intent": "departments"
+  },
+  {
+    "text": "VC details",
+    "intent": "departments"
+  },
+  {
+    "text": "tell me vice chancellor name",
+    "intent": "departments"
+  },
+  {
+    "text": "vice chancellor of the college",
+    "intent": "departments"
+  },
+  {
+    "text": "who is VC of VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "is there a vice chancellor",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Director of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Director of Vivekananda college?",
+    "intent": "departments"
+  },
+  {
+    "text": "director of VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads VCTM college?",
+    "intent": "departments"
+  },
+  {
+    "text": "director name",
+    "intent": "departments"
+  },
+  {
+    "text": "director",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Registrar of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Registrar of Vivekananda college?",
+    "intent": "departments"
+  },
+  {
+    "text": "registrar name",
+    "intent": "departments"
+  },
+  {
+    "text": "registrar of vctm",
+    "intent": "departments"
+  },
+  {
+    "text": "Who handles administrative registrations at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "registrar",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the System Administrator of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "system administrator name",
+    "intent": "departments"
+  },
+  {
+    "text": "Who manages IT infrastructure at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "system admin vctm",
+    "intent": "departments"
+  },
+  {
+    "text": "IT administrator name",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Computer Science at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of CSE?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is HOD of CS?",
+    "intent": "departments"
+  },
+  {
+    "text": "head of computer science department",
+    "intent": "departments"
+  },
+  {
+    "text": "cse hod name",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads CSE department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "HOD of CS",
+    "intent": "departments"
+  },
+  {
+    "text": "computer science hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of cse",
+    "intent": "departments"
+  },
+  {
+    "text": "CSE department head",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the CSE department?",
+    "intent": "departments"
+  },
+  {
+    "text": "who is cse hod",
+    "intent": "departments"
+  },
+  {
+    "text": "who is cs hod",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Polytechnic CS?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Polytechnic Computer Science?",
+    "intent": "departments"
+  },
+  {
+    "text": "polytechnic cs hod",
+    "intent": "departments"
+  },
+  {
+    "text": "polytechnic cse hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of polytechnic cs",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads polytechnic cs?",
+    "intent": "departments"
+  },
+  {
+    "text": "polytechnic computer science hod",
+    "intent": "departments"
+  },
+  {
+    "text": "HOD of Polytechnic CS",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Mechanical Engineering?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the head of mechanical department?",
+    "intent": "departments"
+  },
+  {
+    "text": "mechanical hod",
+    "intent": "departments"
+  },
+  {
+    "text": "hod mechanical engineering",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads ME department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "head of mechanical",
+    "intent": "departments"
+  },
+  {
+    "text": "mechanical engineering hod",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the Mechanical Engineering department?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Polytechnic Mechanical?",
+    "intent": "departments"
+  },
+  {
+    "text": "polytechnic mechanical hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of polytechnic mechanical",
+    "intent": "departments"
+  },
+  {
+    "text": "polytechnic me hod",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads polytechnic mechanical?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Civil Engineering?",
+    "intent": "departments"
+  },
+  {
+    "text": "civil engineering hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of civil department",
+    "intent": "departments"
+  },
+  {
+    "text": "hod civil",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads Civil department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "head of civil engineering",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the Civil Engineering department?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Polytechnic Civil?",
+    "intent": "departments"
+  },
+  {
+    "text": "polytechnic civil hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of polytechnic civil",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads polytechnic civil?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Electrical Engineering?",
+    "intent": "departments"
+  },
+  {
+    "text": "electrical engineering hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of electrical department",
+    "intent": "departments"
+  },
+  {
+    "text": "hod electrical",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads EE department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "electrical hod name",
+    "intent": "departments"
+  },
+  {
+    "text": "HOD of EE",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the Electrical Engineering department?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Electronics and Communication?",
+    "intent": "departments"
+  },
+  {
+    "text": "ece hod name",
+    "intent": "departments"
+  },
+  {
+    "text": "head of ece department",
+    "intent": "departments"
+  },
+  {
+    "text": "hod electronics",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads ECE at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "electronics engineering hod",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the ECE department?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Polytechnic EC?",
+    "intent": "departments"
+  },
+  {
+    "text": "polytechnic ec hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of polytechnic electronics",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads polytechnic ec?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Agricultural Engineering?",
+    "intent": "departments"
+  },
+  {
+    "text": "head of agricultural engineering department",
+    "intent": "departments"
+  },
+  {
+    "text": "agricultural engineering hod",
+    "intent": "departments"
+  },
+  {
+    "text": "hod agricultural",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads Agricultural Engineering at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the Agricultural Engineering department?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of MBA?",
+    "intent": "departments"
+  },
+  {
+    "text": "head of mba department",
+    "intent": "departments"
+  },
+  {
+    "text": "mba hod",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads the management department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "mba hod name",
+    "intent": "departments"
+  },
+  {
+    "text": "management department head",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads the MBA department?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of MCA?",
+    "intent": "departments"
+  },
+  {
+    "text": "mca hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of mca department",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads MCA at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "mca department head",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Applied Sciences?",
+    "intent": "departments"
+  },
+  {
+    "text": "applied sciences hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of first year department",
+    "intent": "departments"
+  },
+  {
+    "text": "first year hod",
+    "intent": "departments"
+  },
+  {
+    "text": "head of sciences and humanities",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is proctor of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "proctor of VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the proctor?",
+    "intent": "departments"
+  },
+  {
+    "text": "proctor name",
+    "intent": "departments"
+  },
+  {
+    "text": "college proctor",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the college proctor?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who are the HODs?",
+    "intent": "departments"
+  },
+  {
+    "text": "List all HODs.",
+    "intent": "departments"
+  },
+  {
+    "text": "Give me all department HODs.",
+    "intent": "departments"
+  },
+  {
+    "text": "Departments and their HODs.",
+    "intent": "departments"
+  },
+  {
+    "text": "HOD details of all departments.",
+    "intent": "departments"
+  },
+  {
+    "text": "all hods",
+    "intent": "departments"
+  },
+  {
+    "text": "list of hods",
+    "intent": "departments"
+  },
+  {
+    "text": "department heads list",
+    "intent": "departments"
+  },
+  {
+    "text": "who are all the hods?",
+    "intent": "departments"
+  },
+  {
+    "text": "show all hods",
+    "intent": "departments"
+  },
+  {
+    "text": "list all department heads",
+    "intent": "departments"
+  },
+  {
+    "text": "all department hods",
+    "intent": "departments"
+  },
+  {
+    "text": "give me list of hods",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the Training and Placement Officer?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the TPO of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "tpo details",
+    "intent": "departments"
+  },
+  {
+    "text": "tpo name",
+    "intent": "departments"
+  },
+  {
+    "text": "tpo",
+    "intent": "departments"
+  },
+  {
+    "text": "who is tpo",
+    "intent": "departments"
+  },
+  {
+    "text": "training and placement head",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads the placement cell?",
+    "intent": "departments"
+  },
+  {
+    "text": "placement officer name",
+    "intent": "departments"
+  },
+  {
+    "text": "placement officer",
+    "intent": "departments"
+  },
+  {
+    "text": "tell me tpo details",
+    "intent": "departments"
+  },
+  {
+    "text": "Who are the faculty members at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "faculty list",
+    "intent": "departments"
+  },
+  {
+    "text": "teaching staff at VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "professors at VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "faculty details",
+    "intent": "departments"
+  },
+  {
+    "text": "Tell me about the faculty",
+    "intent": "departments"
+  },
+  {
+    "text": "What courses are offered at VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What courses are offered?",
+    "intent": "course_details"
+  },
+  {
+    "text": "List all programs offered at VCTM",
+    "intent": "course_details"
+  },
+  {
+    "text": "courses offered",
+    "intent": "course_details"
+  },
+  {
+    "text": "Which courses can I do in VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "programs at VCTM",
+    "intent": "course_details"
+  },
+  {
+    "text": "What degrees does VCTM offer?",
+    "intent": "course_details"
+  },
+  {
+    "text": "academic programs available",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech mba mtech courses at vctm",
+    "intent": "course_details"
+  },
+  {
+    "text": "Tell me about all courses",
+    "intent": "course_details"
+  },
+  {
+    "text": "what courses are available",
+    "intent": "course_details"
+  },
+  {
+    "text": "available programs",
+    "intent": "course_details"
+  },
+  {
+    "text": "degrees in vctm",
+    "intent": "course_details"
+  },
+  {
+    "text": "What branches are in B.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech branches",
+    "intent": "course_details"
+  },
+  {
+    "text": "engineering branches available",
+    "intent": "course_details"
+  },
+  {
+    "text": "Which branches are offered in B.Tech at VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "list of btech streams",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech streams available",
+    "intent": "course_details"
+  },
+  {
+    "text": "Is minor degree offered in B.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "minor degree course",
+    "intent": "course_details"
+  },
+  {
+    "text": "NEP minor degree in engineering",
+    "intent": "course_details"
+  },
+  {
+    "text": "Can I do minor degree in AI ML or Data Science?",
+    "intent": "course_details"
+  },
+  {
+    "text": "minor degree options",
+    "intent": "course_details"
+  },
+  {
+    "text": "minor specialization btech",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for B.Tech CSE?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats are there in B.Tech Computer Science?",
+    "intent": "course_details"
+  },
+  {
+    "text": "cse seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "B.Tech CSE intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seat intake for computer science",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many students can take admission in CSE?",
+    "intent": "course_details"
+  },
+  {
+    "text": "intake in cse",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in btech cse",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of B.Tech CSE?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many years is B.Tech computer science?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech cse duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many semesters in B.Tech CSE?",
+    "intent": "course_details"
+  },
+  {
+    "text": "how long is cse course",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for B.Tech IT?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Information Technology?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech it seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "IT department intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in it branch",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for B.Tech Mechanical Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Mechanical Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mechanical engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech mechanical intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in mechanical",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of B.Tech Mechanical?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many years is Mechanical Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mechanical engineering duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "how long is mechanical course",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for B.Tech Civil Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "civil engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Civil Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech civil intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in civil",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for B.Tech ECE?",
+    "intent": "course_details"
+  },
+  {
+    "text": "ece intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Electronics and Communication?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech ece seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in ece",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for B.Tech Electrical Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "electrical engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Electrical Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech ee intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in ee",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for B.Tech Agricultural Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "agricultural engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Agricultural Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech agricultural intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in agriculture engineering",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the total intake for B.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "total engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many total seats in B.Tech across all branches?",
+    "intent": "course_details"
+  },
+  {
+    "text": "total btech capacity",
+    "intent": "course_details"
+  },
+  {
+    "text": "overall btech seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of B.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many years is B.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "btech duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "How long is engineering course?",
+    "intent": "course_details"
+  },
+  {
+    "text": "how many semesters in btech",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for MBA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats are available in MBA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mba seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "mba intake capacity",
+    "intent": "course_details"
+  },
+  {
+    "text": "total seats in mba",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in management",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of MBA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many years is the MBA course?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mba duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "how long is mba",
+    "intent": "course_details"
+  },
+  {
+    "text": "What specializations are offered in MBA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mba specializations",
+    "intent": "course_details"
+  },
+  {
+    "text": "What streams are available in MBA at VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Can I do MBA in HR or Finance at VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mba subjects",
+    "intent": "course_details"
+  },
+  {
+    "text": "mba streams",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for MCA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in MCA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mca seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "mca intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in mca",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of MCA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many years is MCA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mca duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "how long is mca",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for M.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in M.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mtech seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "What specializations are available in M.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mtech intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in mtech",
+    "intent": "course_details"
+  },
+  {
+    "text": "structural engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "production engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of M.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How long is M.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mtech duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "how many years in mtech",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the intake for Polytechnic Diploma?",
+    "intent": "course_details"
+  },
+  {
+    "text": "polytechnic seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Diploma engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "diploma intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "polytechnic branches and seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "seats in polytechnic diploma",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of Polytechnic Diploma?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many years is diploma course?",
+    "intent": "course_details"
+  },
+  {
+    "text": "polytechnic duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "lateral entry diploma duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "how long is diploma",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the eligibility for B.Tech?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "btech eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What are the eligibility criteria for engineering admission?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "12th percentage required for B.Tech",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who can join B.Tech at VCTM?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "pcm requirements for btech",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "eligibility criteria for btech",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "can 12th pass apply for btech",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What is the eligibility for B.Tech Lateral Entry?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "btech lateral entry eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Can diploma holders join B.Tech 2nd year directly?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "direct 2nd year btech admission criteria",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "lateral entry eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "lateral entry criteria",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What is the eligibility for MBA?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "mba eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who can apply for MBA at VCTM?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "graduation marks required for mba",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "eligibility criteria for mba",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What is the eligibility for MCA?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "mca eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who can apply for MCA at VCTM?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "eligibility criteria for mca",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "can bca student apply for mca",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What is the eligibility for M.Tech?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "mtech eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who can apply for M.Tech?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "gate score requirement for mtech",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "eligibility criteria for mtech",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What is the eligibility for Polytechnic Diploma?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "polytechnic eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who can join diploma at VCTM?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "10th marks needed for diploma",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "diploma eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What is the fee for B.Tech?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the fee for B.Tech CSE?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "btech fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "btech cse fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "How much does B.Tech cost per year?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "annual tuition fee for engineering",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "btech fees structure",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "cost of btech",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "btech tuition",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the fee for MBA?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "mba fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "mba annual fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "How much does MBA cost per year at VCTM?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "mba tuition fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "cost of mba",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the fee for M.Tech?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "mtech fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "How much does M.Tech cost per year?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "mtech annual fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "cost of mtech",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the fee for MCA?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "mca fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "How much does MCA cost per year?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "mca annual tuition fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "cost of mca",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the fee for Polytechnic Diploma?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "diploma fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "polytechnic fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "How much does diploma cost per year?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "polytechnic diploma tuition fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "cost of diploma",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the complete fee structure of VCTM?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "fee structure",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "Tell me the fees for all courses",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "annual fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "college fees list",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "how much are the fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "all courses fee structure",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "Can I pay fees in installments?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "installment facility for fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "fee payment options",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "semester wise fee payment",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "can i pay fees in parts",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What are the additional fees?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "prospectus fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "cultural fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "exam fee charges",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "other charges besides tuition",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "extra fees",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the highest package in placement?",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the highest package at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the highest package?",
+    "intent": "placements"
+  },
+  {
+    "text": "highest package",
+    "intent": "placements"
+  },
+  {
+    "text": "highest package in placement",
+    "intent": "placements"
+  },
+  {
+    "text": "What was the highest package offered?",
+    "intent": "placements"
+  },
+  {
+    "text": "highest package offered at VCTM",
+    "intent": "placements"
+  },
+  {
+    "text": "highest salary",
+    "intent": "placements"
+  },
+  {
+    "text": "maximum package in campus placement",
+    "intent": "placements"
+  },
+  {
+    "text": "highest package in CSE",
+    "intent": "placements"
+  },
+  {
+    "text": "What's the maximum package?",
+    "intent": "placements"
+  },
+  {
+    "text": "Tell me the top package.",
+    "intent": "placements"
+  },
+  {
+    "text": "top package",
+    "intent": "placements"
+  },
+  {
+    "text": "maximum package",
+    "intent": "placements"
+  },
+  {
+    "text": "max package",
+    "intent": "placements"
+  },
+  {
+    "text": "highest salary package",
+    "intent": "placements"
+  },
+  {
+    "text": "highest offer",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the average package in placement?",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the average package at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the average package?",
+    "intent": "placements"
+  },
+  {
+    "text": "average package",
+    "intent": "placements"
+  },
+  {
+    "text": "average package in placement",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the average salary package for B.Tech students?",
+    "intent": "placements"
+  },
+  {
+    "text": "average salary at VCTM",
+    "intent": "placements"
+  },
+  {
+    "text": "average placement package",
+    "intent": "placements"
+  },
+  {
+    "text": "mean salary package",
+    "intent": "placements"
+  },
+  {
+    "text": "normal package offered",
+    "intent": "placements"
+  },
+  {
+    "text": "avg package",
+    "intent": "placements"
+  },
+  {
+    "text": "average package in cse",
+    "intent": "placements"
+  },
+  {
+    "text": "average salary",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the placement percentage at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "placement rate",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the placement rate of VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "placement percentage in CSE",
+    "intent": "placements"
+  },
+  {
+    "text": "How many percent students get placed?",
+    "intent": "placements"
+  },
+  {
+    "text": "placement success rate",
+    "intent": "placements"
+  },
+  {
+    "text": "placement percentage",
+    "intent": "placements"
+  },
+  {
+    "text": "How many students were placed from VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "total students placed",
+    "intent": "placements"
+  },
+  {
+    "text": "number of students placed in campus drives",
+    "intent": "placements"
+  },
+  {
+    "text": "students placed count",
+    "intent": "placements"
+  },
+  {
+    "text": "how many students got jobs",
+    "intent": "placements"
+  },
+  {
+    "text": "total placements count",
+    "intent": "placements"
+  },
+  {
+    "text": "Which academic year placement statistics are available?",
+    "intent": "placements"
+  },
+  {
+    "text": "placement statistics by year",
+    "intent": "placements"
+  },
+  {
+    "text": "placement batch report",
+    "intent": "placements"
+  },
+  {
+    "text": "year wise placement record",
+    "intent": "placements"
+  },
+  {
+    "text": "academic year placements",
+    "intent": "placements"
+  },
+  {
+    "text": "Which companies visit VCTM for placements?",
+    "intent": "placements"
+  },
+  {
+    "text": "recruiters",
+    "intent": "placements"
+  },
+  {
+    "text": "top recruiters",
+    "intent": "placements"
+  },
+  {
+    "text": "Who are the top recruiters at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "companies visiting VCTM for recruitment",
+    "intent": "placements"
+  },
+  {
+    "text": "Does TCS or Infosys or IBM hire from VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "placement companies list",
+    "intent": "placements"
+  },
+  {
+    "text": "placement partners",
+    "intent": "placements"
+  },
+  {
+    "text": "visiting companies",
+    "intent": "placements"
+  },
+  {
+    "text": "What are the branch-wise placement statistics?",
+    "intent": "placements"
+  },
+  {
+    "text": "branch wise placements",
+    "intent": "placements"
+  },
+  {
+    "text": "Which companies recruit mechanical or civil engineering students?",
+    "intent": "placements"
+  },
+  {
+    "text": "placement opportunities for CSE vs ME",
+    "intent": "placements"
+  },
+  {
+    "text": "branch wise recruitment",
+    "intent": "placements"
+  },
+  {
+    "text": "Does VCTM provide internships?",
+    "intent": "placements"
+  },
+  {
+    "text": "internship opportunities",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the duration of internship at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "summer training programs",
+    "intent": "placements"
+  },
+  {
+    "text": "internship duration",
+    "intent": "placements"
+  },
+  {
+    "text": "internship support",
+    "intent": "placements"
+  },
+  {
+    "text": "are internships available",
+    "intent": "placements"
+  },
+  {
+    "text": "How are the placements at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "placements",
+    "intent": "placements"
+  },
+  {
+    "text": "Tell me about placements in VCTM",
+    "intent": "placements"
+  },
+  {
+    "text": "placement overview",
+    "intent": "placements"
+  },
+  {
+    "text": "Is placement good in VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "placement records",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the admission process at VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "how to take admission",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission procedure",
+    "intent": "admissions"
+  },
+  {
+    "text": "How do I apply for admission in VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "counseling procedure for VCTM",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission steps",
+    "intent": "admissions"
+  },
+  {
+    "text": "how to enroll in vctm",
+    "intent": "admissions"
+  },
+  {
+    "text": "Can I get direct admission in VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "direct admission",
+    "intent": "admissions"
+  },
+  {
+    "text": "Is direct admission available?",
+    "intent": "admissions"
+  },
+  {
+    "text": "management quota admission",
+    "intent": "admissions"
+  },
+  {
+    "text": "direct admission in B.Tech without JEE Main",
+    "intent": "admissions"
+  },
+  {
+    "text": "management quota seats",
+    "intent": "admissions"
+  },
+  {
+    "text": "Who is in charge of admission cell?",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission cell members",
+    "intent": "admissions"
+  },
+  {
+    "text": "Who is Head of Admission Cell at VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission contact numbers",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission committee",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission helpline numbers",
+    "intent": "admissions"
+  },
+  {
+    "text": "What documents are required for admission?",
+    "intent": "admissions"
+  },
+  {
+    "text": "documents required for admission",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission documents list",
+    "intent": "admissions"
+  },
+  {
+    "text": "What certificates do I need to bring for admission?",
+    "intent": "admissions"
+  },
+  {
+    "text": "certificates needed for admission",
+    "intent": "admissions"
+  },
+  {
+    "text": "What is the curfew time for Girls Hostel?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "girls hostel curfew",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "entry time for girls hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel closing time for girls",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "curfew timing for girls",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "What is the curfew time for Boys Hostel?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "boys hostel curfew",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "entry time for boys hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "gate closing time for hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "curfew timing for boys",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "How is the mess food at VCTM?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel mess food",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "Is non-veg food available in mess?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "What kind of food is served in hostel mess?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "mess facility",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "food in hostel mess",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "What is the hostel fee?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel fees?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel fee",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "How much does hostel accommodation cost?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel charges",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel room rent",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "cost of hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "how much is hostel fee?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel cost",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel annual fee",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel fee structure",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "what is hostel fee for boys?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "boys hostel fee",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "boys hostel fees",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "boys hostel charges",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel fee for boys",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "how much is boys hostel fee?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "cost of boys hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "what is hostel fee for girls?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "girls hostel fee",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "girls hostel fees",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "girls hostel charges",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel fee for girls",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "how much is girls hostel fee?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "cost of girls hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "What are the hostel facilities?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel facilities",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel amenities",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "facilities in hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "amenities in hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "Does VCTM have hostel facility?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel facility",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel accommodation",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel accommodation details",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "Does VCTM provide accommodation for students?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "stay in hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "student accommodation facilities",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel rules",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "What are the rules in hostel?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel regulations",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel discipline rules",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "transportation facilities",
+    "intent": "transportation"
+  },
+  {
+    "text": "bus facility",
+    "intent": "transportation"
+  },
+  {
+    "text": "Does VCTM provide bus facility?",
+    "intent": "transportation"
+  },
+  {
+    "text": "college transport",
+    "intent": "transportation"
+  },
+  {
+    "text": "transportation",
+    "intent": "transportation"
+  },
+  {
+    "text": "bus service",
+    "intent": "transportation"
+  },
+  {
+    "text": "transport services",
+    "intent": "transportation"
+  },
+  {
+    "text": "What are the bus routes of VCTM?",
+    "intent": "transportation"
+  },
+  {
+    "text": "bus routes",
+    "intent": "transportation"
+  },
+  {
+    "text": "bus pickup points",
+    "intent": "transportation"
+  },
+  {
+    "text": "bus stops",
+    "intent": "transportation"
+  },
+  {
+    "text": "What are the stops for college bus?",
+    "intent": "transportation"
+  },
+  {
+    "text": "bus route details",
+    "intent": "transportation"
+  },
+  {
+    "text": "Tell me about the central library at VCTM",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "library facility",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "central library",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "How many books are in VCTM library?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "Is there a library at VCTM?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "library journals",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "book bank facility",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "Does VCTM have a cafeteria?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "cafeteria facility",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "canteen at VCTM",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "food court in college",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "cafeteria",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "Does VCTM have an auditorium?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "auditorium facility",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "seminar hall",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "conference hall in college",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "auditorium",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "What clubs are there for students?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "student clubs",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "sports club",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "art club",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "co curricular activities",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "extra curricular clubs",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "What is the campus area of VCTM?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "How big is the VCTM campus?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "How many acres is VCTM campus?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "campus area in acres",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "VCTM campus size",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "total campus acreage",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "eligibility for scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "scholarship eligibility",
+    "intent": "scholarships"
+  },
+  {
+    "text": "who is eligible for scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "what are the eligibility criteria for scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "who can get the scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "what do I need to qualify for scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "can I apply for scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "what are the requirements to get scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "to get scholarship what is the eligibility criteria?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "scholarship eligibility criteria",
+    "intent": "scholarships"
+  },
+  {
+    "text": "how to qualify for scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "requirements to get scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "eligibility criteria for scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "What scholarships are available at VCTM?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "scholarships",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Can I get UP government scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "up scholarship for btech",
+    "intent": "scholarships"
+  },
+  {
+    "text": "fee reimbursement in VCTM",
+    "intent": "scholarships"
+  },
+  {
+    "text": "samaj kalyan scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Does VCTM offer merit scholarships?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "merit scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "fee waiver for top rankers",
+    "intent": "scholarships"
+  },
+  {
+    "text": "scholarship for 80% marks in 12th",
+    "intent": "scholarships"
+  },
+  {
+    "text": "college internal scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "What is the attendance rule at VCTM?",
+    "intent": "examinations"
+  },
+  {
+    "text": "attendance requirement",
+    "intent": "examinations"
+  },
+  {
+    "text": "Is 75% attendance compulsory?",
+    "intent": "examinations"
+  },
+  {
+    "text": "What happens if attendance is below 75%?",
+    "intent": "examinations"
+  },
+  {
+    "text": "attendance policy",
+    "intent": "examinations"
+  },
+  {
+    "text": "minimum attendance required",
+    "intent": "examinations"
+  },
+  {
+    "text": "attendance",
+    "intent": "examinations"
+  },
+  {
+    "text": "What is the examination pattern at VCTM?",
+    "intent": "examinations"
+  },
+  {
+    "text": "exam pattern",
+    "intent": "examinations"
+  },
+  {
+    "text": "How are exams conducted at VCTM?",
+    "intent": "examinations"
+  },
+  {
+    "text": "sessional exams schedule",
+    "intent": "examinations"
+  },
+  {
+    "text": "semester examination system",
+    "intent": "examinations"
+  },
+  {
+    "text": "examinations",
+    "intent": "examinations"
+  },
+  {
+    "text": "exams",
+    "intent": "examinations"
+  },
+  {
+    "text": "What is the anti ragging policy?",
+    "intent": "anti_ragging"
+  },
+  {
+    "text": "anti ragging",
+    "intent": "anti_ragging"
+  },
+  {
+    "text": "Is ragging banned in VCTM?",
+    "intent": "anti_ragging"
+  },
+  {
+    "text": "anti ragging committee",
+    "intent": "anti_ragging"
+  },
+  {
+    "text": "ragging complaints",
+    "intent": "anti_ragging"
+  },
+  {
+    "text": "anti ragging rules",
+    "intent": "anti_ragging"
+  },
+  {
+    "text": "How to register a grievance?",
+    "intent": "grievance_cell"
+  },
+  {
+    "text": "grievance cell",
+    "intent": "grievance_cell"
+  },
+  {
+    "text": "student grievance redressal",
+    "intent": "grievance_cell"
+  },
+  {
+    "text": "how to complain about an issue in college",
+    "intent": "grievance_cell"
+  },
+  {
+    "text": "grievance form",
+    "intent": "grievance_cell"
+  },
+  {
+    "text": "What is the dress code at VCTM?",
+    "intent": "dress_code"
+  },
+  {
+    "text": "dress code",
+    "intent": "dress_code"
+  },
+  {
+    "text": "Is uniform compulsory at VCTM?",
+    "intent": "dress_code"
+  },
+  {
+    "text": "college uniform rules",
+    "intent": "dress_code"
+  },
+  {
+    "text": "uniform policy",
+    "intent": "dress_code"
+  },
+  {
+    "text": "What is the contact number of VCTM?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "phone number",
+    "intent": "contact_details"
+  },
+  {
+    "text": "contact number",
+    "intent": "contact_details"
+  },
+  {
+    "text": "VCTM helpline",
+    "intent": "contact_details"
+  },
+  {
+    "text": "How can I call VCTM college?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "admission helpline phone number",
+    "intent": "contact_details"
+  },
+  {
+    "text": "contact details",
+    "intent": "contact_details"
+  },
+  {
+    "text": "phone",
+    "intent": "contact_details"
+  },
+  {
+    "text": "What is the official email of VCTM?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "email address",
+    "intent": "contact_details"
+  },
+  {
+    "text": "VCTM email",
+    "intent": "contact_details"
+  },
+  {
+    "text": "How can I email the college?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "email",
+    "intent": "contact_details"
+  },
+  {
+    "text": "What is the official website of VCTM?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "website",
+    "intent": "contact_details"
+  },
+  {
+    "text": "VCTM web link",
+    "intent": "contact_details"
+  },
+  {
+    "text": "official portal URL",
+    "intent": "contact_details"
+  },
+  {
+    "text": "web address",
+    "intent": "contact_details"
+  },
+  {
+    "text": "Where is VCTM located?",
+    "intent": "location"
+  },
+  {
+    "text": "address",
+    "intent": "location"
+  },
+  {
+    "text": "What is the address of VCTM Aligarh?",
+    "intent": "location"
+  },
+  {
+    "text": "How to reach VCTM?",
+    "intent": "location"
+  },
+  {
+    "text": "Where is Vivekananda college in Aligarh?",
+    "intent": "location"
+  },
+  {
+    "text": "college location",
+    "intent": "location"
+  },
+  {
+    "text": "location",
+    "intent": "location"
+  },
+  {
+    "text": "How far is VCTM from Aligarh city?",
+    "intent": "location"
+  },
+  {
+    "text": "distance from railway station",
+    "intent": "location"
+  },
+  {
+    "text": "distance from AMU",
+    "intent": "location"
+  },
+  {
+    "text": "How far is VCTM from Aligarh Junction?",
+    "intent": "location"
+  },
+  {
+    "text": "distance to college",
+    "intent": "location"
+  },
+  {
+    "text": "What are the office hours of VCTM?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "working hours",
+    "intent": "contact_details"
+  },
+  {
+    "text": "When can I visit the college campus?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "admission office timings",
+    "intent": "contact_details"
+  },
+  {
+    "text": "college timings",
+    "intent": "contact_details"
+  },
+  {
+    "text": "hi",
+    "intent": "greeting"
+  },
+  {
+    "text": "hello",
+    "intent": "greeting"
+  },
+  {
+    "text": "hey",
+    "intent": "greeting"
+  },
+  {
+    "text": "hey there",
+    "intent": "greeting"
+  },
+  {
+    "text": "good morning",
+    "intent": "greeting"
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greeting"
+  },
+  {
+    "text": "good evening",
+    "intent": "greeting"
+  },
+  {
+    "text": "namaste",
+    "intent": "greeting"
+  },
+  {
+    "text": "hi there",
+    "intent": "greeting"
+  },
+  {
+    "text": "hello bot",
+    "intent": "greeting"
+  },
+  {
+    "text": "greetings",
+    "intent": "greeting"
+  },
+  {
+    "text": "start chat",
+    "intent": "greeting"
+  },
+  {
+    "text": "thank you",
+    "intent": "thanks"
+  },
+  {
+    "text": "thanks",
+    "intent": "thanks"
+  },
+  {
+    "text": "thank you so much",
+    "intent": "thanks"
+  },
+  {
+    "text": "thanks a lot",
+    "intent": "thanks"
+  },
+  {
+    "text": "thx",
+    "intent": "thanks"
+  },
+  {
+    "text": "thankyou",
+    "intent": "thanks"
+  },
+  {
+    "text": "appreciate it",
+    "intent": "thanks"
+  },
+  {
+    "text": "thanks for your help",
+    "intent": "thanks"
+  },
+  {
+    "text": "many thanks",
+    "intent": "thanks"
+  },
+  {
+    "text": "ok",
+    "intent": "thanks"
+  },
+  {
+    "text": "okay",
+    "intent": "thanks"
+  },
+  {
+    "text": "got it",
+    "intent": "thanks"
+  },
+  {
+    "text": "understood",
+    "intent": "thanks"
+  },
+  {
+    "text": "alright",
+    "intent": "thanks"
+  },
+  {
+    "text": "noted",
+    "intent": "thanks"
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye"
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye"
+  },
+  {
+    "text": "see you later",
+    "intent": "goodbye"
+  },
+  {
+    "text": "bye bye",
+    "intent": "goodbye"
+  },
+  {
+    "text": "exit",
+    "intent": "goodbye"
+  },
+  {
+    "text": "quit",
+    "intent": "goodbye"
+  },
+  {
+    "text": "have a good day",
+    "intent": "goodbye"
+  },
+  {
+    "text": "talk to you later",
+    "intent": "goodbye"
+  },
+  {
+    "text": "cya",
+    "intent": "goodbye"
+  },
+  {
+    "text": "tell me about something unrelated",
+    "intent": "fallback"
+  },
+  {
+    "text": "who won the world cup",
+    "intent": "fallback"
+  },
+  {
+    "text": "what is the weather today",
+    "intent": "fallback"
+  },
+  {
+    "text": "random question",
+    "intent": "fallback"
+  },
+  {
+    "text": "can you write a poem",
+    "intent": "fallback"
+  },
+  {
+    "text": "xyz nonsense text 123",
+    "intent": "fallback"
+  },
+  {
+    "text": "tell me a joke",
+    "intent": "fallback"
+  },
+  {
+    "text": "what is the capital of france",
+    "intent": "fallback"
+  },
+  {
+    "text": "how to cook pasta",
+    "intent": "fallback"
+  },
+  {
+    "text": "asdfghjkl qwertyuiop",
+    "intent": "fallback"
+  }
+];
+
+export const INTENT_DEFINITIONS: Record<IntentType, { label: string; description: string }> = {
+  greeting: { label: 'Greeting', description: 'Welcoming students to the enquiry portal' },
+  thanks: { label: 'Appreciation', description: 'Student expressing gratitude' },
+  goodbye: { label: 'Farewell', description: 'Concluding conversation' },
+  fallback: { label: 'Fallback', description: 'Out of domain enquiry' },
+  admissions: { label: 'Admissions', description: 'Inquiries about admission process and deadlines' },
+  course_details: { label: 'Course Details', description: 'Degree programs, duration, seats, and branches' },
+  eligibility_criteria: { label: 'Eligibility', description: 'Academic prerequisites and minimum marks' },
+  fees_structure: { label: 'Fees Structure', description: 'Annual and semester fees breakdown' },
+  scholarships: { label: 'Scholarships', description: 'Government and institutional financial aid' },
+  hostel_mess: { label: 'Hostel & Mess', description: 'Hostel rooms, dining, and campus living' },
+  placements: { label: 'Placements', description: 'Campus placements, recruitment drives, and recruiters' },
+  examinations: { label: 'Examinations', description: 'Semester exams, sessionals, and attendance requirements' },
+  departments: { label: 'Departments & HODs', description: 'Academic faculties, leadership, and department heads' },
+  facilities_campus: { label: 'Campus Facilities', description: 'Library, labs, cafeteria, auditorium, and sports' },
+  transportation: { label: 'Transportation', description: 'Bus routes, pickup locations, and fleet' },
+  contact_details: { label: 'Contact Details', description: 'Helplines, emails, and address' },
+  location: { label: 'Location & Distance', description: 'Directions and distances from station' },
+  cutoffs_ranks: { label: 'Cutoffs & Counseling', description: 'UPTAC and entrance exam counseling' },
+  general_greeting: { label: 'General Greeting', description: 'General greetings' },
+  unknown: { label: 'Unknown', description: 'Unclassified query' },
+  anti_ragging: { label: 'Anti-Ragging', description: 'Anti-ragging policies and committee' },
+  grievance_cell: { label: 'Grievance Cell', description: 'Grievance redressal mechanism' },
+  dress_code: { label: 'Dress Code', description: 'Student uniform and dress code mandates' },
+  academic_policy: { label: 'Academic Policy', description: 'Academic vision and holistic education policy' },
+};

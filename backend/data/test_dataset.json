@@ -1,0 +1,614 @@
+[
+  {
+    "text": "asdfghjkl qwertyuiop",
+    "intent": "fallback"
+  },
+  {
+    "text": "Give me the institutional codes of VCTM",
+    "intent": "course_details"
+  },
+  {
+    "text": "lateral entry eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "how long is mechanical course",
+    "intent": "course_details"
+  },
+  {
+    "text": "admission helpline numbers",
+    "intent": "admissions"
+  },
+  {
+    "text": "admission steps",
+    "intent": "admissions"
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greeting"
+  },
+  {
+    "text": "NEP minor degree in engineering",
+    "intent": "course_details"
+  },
+  {
+    "text": "thankyou",
+    "intent": "thanks"
+  },
+  {
+    "text": "VC details",
+    "intent": "departments"
+  },
+  {
+    "text": "Does VCTM have hostel facility?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "start chat",
+    "intent": "greeting"
+  },
+  {
+    "text": "intake in cse",
+    "intent": "course_details"
+  },
+  {
+    "text": "diploma intake",
+    "intent": "course_details"
+  },
+  {
+    "text": "cya",
+    "intent": "goodbye"
+  },
+  {
+    "text": "how many semesters in btech",
+    "intent": "course_details"
+  },
+  {
+    "text": "highest package in CSE",
+    "intent": "placements"
+  },
+  {
+    "text": "VCTM codes",
+    "intent": "course_details"
+  },
+  {
+    "text": "entry time for girls hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "agricultural engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "can bca student apply for mca",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "head of cse",
+    "intent": "departments"
+  },
+  {
+    "text": "cultural fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the college code for AKTU counseling?",
+    "intent": "course_details"
+  },
+  {
+    "text": "placement partners",
+    "intent": "placements"
+  },
+  {
+    "text": "dress code",
+    "intent": "dress_code"
+  },
+  {
+    "text": "how to cook pasta",
+    "intent": "fallback"
+  },
+  {
+    "text": "Where is VCTM located?",
+    "intent": "location"
+  },
+  {
+    "text": "top recruiters",
+    "intent": "placements"
+  },
+  {
+    "text": "scholarship for 80% marks in 12th",
+    "intent": "scholarships"
+  },
+  {
+    "text": "affiliations of vctm",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in MCA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "exam pattern",
+    "intent": "examinations"
+  },
+  {
+    "text": "Who is the Training and Placement Officer?",
+    "intent": "departments"
+  },
+  {
+    "text": "Tell me about all courses",
+    "intent": "course_details"
+  },
+  {
+    "text": "aktu code",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the affiliating university of VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the fee for B.Tech CSE?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the intake for MBA?",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many years is diploma course?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Who leads Agricultural Engineering at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Does VCTM provide accommodation for students?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "mba annual fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "How is the mess food at VCTM?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "attendance requirement",
+    "intent": "examinations"
+  },
+  {
+    "text": "cse hod name",
+    "intent": "departments"
+  },
+  {
+    "text": "btech tuition",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "bus route details",
+    "intent": "transportation"
+  },
+  {
+    "text": "tpo details",
+    "intent": "departments"
+  },
+  {
+    "text": "Who leads CSE department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "grievance cell",
+    "intent": "grievance_cell"
+  },
+  {
+    "text": "What is the placement percentage at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "bte code please",
+    "intent": "course_details"
+  },
+  {
+    "text": "How much does diploma cost per year?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "library facility",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "What institutions are under Vivekananda group?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the examination pattern at VCTM?",
+    "intent": "examinations"
+  },
+  {
+    "text": "mechanical engineering duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "hostel room rent",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "Tell me about the faculty",
+    "intent": "departments"
+  },
+  {
+    "text": "total engineering seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the duration of internship at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "hostel rules",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "chairman name",
+    "intent": "departments"
+  },
+  {
+    "text": "prospectus fee",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "What is the campus area of VCTM?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "BTE code 1628",
+    "intent": "course_details"
+  },
+  {
+    "text": "vice chairperson",
+    "intent": "departments"
+  },
+  {
+    "text": "branch wise placements",
+    "intent": "placements"
+  },
+  {
+    "text": "Is non-veg food available in mess?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "hostel fee",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "What specializations are available in M.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the eligibility for B.Tech?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "engineering branches available",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the code of VCTM in AKTU?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Does VCTM provide bus facility?",
+    "intent": "transportation"
+  },
+  {
+    "text": "what is hostel fee for girls?",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "fee payment options",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "Does VCTM offer merit scholarships?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "highest package in placement",
+    "intent": "placements"
+  },
+  {
+    "text": "IT administrator name",
+    "intent": "departments"
+  },
+  {
+    "text": "placement officer name",
+    "intent": "departments"
+  },
+  {
+    "text": "How many books are in VCTM library?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "college internal scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Who is the HOD of Electronics and Communication?",
+    "intent": "departments"
+  },
+  {
+    "text": "eligibility criteria for mca",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "HOD of CS",
+    "intent": "departments"
+  },
+  {
+    "text": "mtech duration",
+    "intent": "course_details"
+  },
+  {
+    "text": "When was VCTM established?",
+    "intent": "course_details"
+  },
+  {
+    "text": "college location",
+    "intent": "location"
+  },
+  {
+    "text": "What is the duration of Polytechnic Diploma?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Departments and their HODs.",
+    "intent": "departments"
+  },
+  {
+    "text": "What is the intake for M.Tech?",
+    "intent": "course_details"
+  },
+  {
+    "text": "What are the office hours of VCTM?",
+    "intent": "contact_details"
+  },
+  {
+    "text": "official portal URL",
+    "intent": "contact_details"
+  },
+  {
+    "text": "VC of VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "placement percentage in CSE",
+    "intent": "placements"
+  },
+  {
+    "text": "teaching staff at VCTM",
+    "intent": "departments"
+  },
+  {
+    "text": "hostel facility",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "What is the eligibility for MBA?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who leads EE department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "head of civil department",
+    "intent": "departments"
+  },
+  {
+    "text": "Who heads polytechnic cs?",
+    "intent": "departments"
+  },
+  {
+    "text": "admission office timings",
+    "intent": "contact_details"
+  },
+  {
+    "text": "What is the average package?",
+    "intent": "placements"
+  },
+  {
+    "text": "What is the average salary package for B.Tech students?",
+    "intent": "placements"
+  },
+  {
+    "text": "college proctor",
+    "intent": "departments"
+  },
+  {
+    "text": "courses offered",
+    "intent": "course_details"
+  },
+  {
+    "text": "Who is the HOD of MCA?",
+    "intent": "departments"
+  },
+  {
+    "text": "understood",
+    "intent": "thanks"
+  },
+  {
+    "text": "bye bye",
+    "intent": "goodbye"
+  },
+  {
+    "text": "What is the fee for M.Tech?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "auditorium facility",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "anti ragging rules",
+    "intent": "anti_ragging"
+  },
+  {
+    "text": "Who leads Civil department at VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "What is the average package at VCTM?",
+    "intent": "placements"
+  },
+  {
+    "text": "how to qualify for scholarship?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "cost of girls hostel",
+    "intent": "hostel_mess"
+  },
+  {
+    "text": "average salary at VCTM",
+    "intent": "placements"
+  },
+  {
+    "text": "Who is the TPO of VCTM?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is the HOD of Polytechnic Mechanical?",
+    "intent": "departments"
+  },
+  {
+    "text": "What is the BTE UP code of VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "cost of diploma",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "faculty details",
+    "intent": "departments"
+  },
+  {
+    "text": "internship support",
+    "intent": "placements"
+  },
+  {
+    "text": "working hours",
+    "intent": "contact_details"
+  },
+  {
+    "text": "conference hall in college",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "overall btech seats",
+    "intent": "course_details"
+  },
+  {
+    "text": "What is the complete fee structure of VCTM?",
+    "intent": "fees_structure"
+  },
+  {
+    "text": "Which courses can I do in VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Which branches are offered in B.Tech at VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "Who is the HOD of Civil Engineering?",
+    "intent": "departments"
+  },
+  {
+    "text": "internship duration",
+    "intent": "placements"
+  },
+  {
+    "text": "Who is in charge of admission cell?",
+    "intent": "admissions"
+  },
+  {
+    "text": "mtech eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who is the college proctor?",
+    "intent": "departments"
+  },
+  {
+    "text": "co curricular activities",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "certificates needed for admission",
+    "intent": "admissions"
+  },
+  {
+    "text": "scholarship",
+    "intent": "scholarships"
+  },
+  {
+    "text": "VCTM web link",
+    "intent": "contact_details"
+  },
+  {
+    "text": "foundation year of vctm",
+    "intent": "course_details"
+  },
+  {
+    "text": "How many seats in Civil Engineering?",
+    "intent": "course_details"
+  },
+  {
+    "text": "all department hods",
+    "intent": "departments"
+  },
+  {
+    "text": "how many students got jobs",
+    "intent": "placements"
+  },
+  {
+    "text": "Can I do MBA in HR or Finance at VCTM?",
+    "intent": "course_details"
+  },
+  {
+    "text": "thanks for your help",
+    "intent": "thanks"
+  },
+  {
+    "text": "Who is Vice Chairperson of Vivekananda college?",
+    "intent": "departments"
+  },
+  {
+    "text": "Who is Head of Admission Cell at VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "What is the intake for B.Tech IT?",
+    "intent": "course_details"
+  },
+  {
+    "text": "mba eligibility",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who is Chairman of Vivekananda college?",
+    "intent": "departments"
+  },
+  {
+    "text": "HOD details of all departments.",
+    "intent": "departments"
+  },
+  {
+    "text": "transportation",
+    "intent": "transportation"
+  }
+]

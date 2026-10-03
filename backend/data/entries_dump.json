@@ -1,0 +1,1209 @@
+[
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "aktu_code",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The official AKTU College Code for Vivekananda College of Technology & Management (VCTM) is **340** (Dr. A.P.J. Abdul Kalam Technical University, Lucknow).",
+    "questions": [
+      "What is the AKTU college code for VCTM?",
+      "What is the AKTU code of VCTM?",
+      "What is VCTM AKTU code?",
+      "aktu code",
+      "AKTU college code",
+      "What is the college code for AKTU counseling?",
+      "Which AKTU code to fill for VCTM in counseling?",
+      "Tell me the AKTU code of Vivekananda college",
+      "aktu code 340",
+      "What is the code of VCTM in AKTU?",
+      "VCTM counseling code AKTU"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "bte_code",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The official BTE UP College Code for Vivekananda College of Polytechnic (VCP) is **1628** (Board of Technical Education, Uttar Pradesh for Polytechnic Diploma programs).",
+    "questions": [
+      "What is the BTE college code?",
+      "What is the BTE UP code of VCTM?",
+      "What is the BTE code for polytechnic?",
+      "bte code",
+      "BTE UP code",
+      "Polytechnic college code BTE",
+      "Which BTE code is used for diploma counseling?",
+      "BTE code 1628",
+      "Tell me the Board of Technical Education code for VCTM"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "institutional_codes",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM institutional codes are:\n\u2022 **AKTU College Code:** **340** (for B.Tech, MBA, MCA, M.Tech)\n\u2022 **BTE UP College Code:** **1628** (for Polytechnic Diploma)",
+    "questions": [
+      "What are the college codes for VCTM?",
+      "Give me the institutional codes of VCTM",
+      "What are the AKTU and BTE codes?",
+      "college codes",
+      "VCTM codes"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "aicte_approval",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "All engineering, management, and polytechnic programs at VCTM are approved by the **All India Council for Technical Education (AICTE)**, Ministry of Education, Government of India.",
+    "questions": [
+      "Is VCTM AICTE approved?",
+      "Are courses approved by AICTE?",
+      "Does VCTM have AICTE approval?",
+      "aicte approval status",
+      "Is Vivekananda college recognized by government?"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "affiliated_university",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM is affiliated with **Dr. A.P.J. Abdul Kalam Technical University (AKTU, Lucknow \u00b7 College Code 340)** for degree programs and **Board of Technical Education (BTE UP, Lucknow \u00b7 Code 1628)** for Polytechnic Diploma programs.",
+    "questions": [
+      "Which university is VCTM affiliated to?",
+      "What is the affiliating university of VCTM?",
+      "Is VCTM affiliated with AKTU?",
+      "Who conducts the examinations and degree for VCTM?",
+      "affiliating body of VCTM"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "established_year",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM was established in the year **2008** under the aegis of the **N.L. Educational Society**.",
+    "questions": [
+      "When was VCTM established?",
+      "In which year was VCTM founded?",
+      "Establishment year of VCTM",
+      "When did VCTM start?",
+      "Who founded VCTM and when?"
+    ]
+  },
+  {
+    "intent": "facilities_campus",
+    "entity": "VCTM",
+    "attribute": "campus_area",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The VCTM campus is spread across a lush green **10.7-Acre** highway campus on Mathura Bypass, Aligarh.",
+    "questions": [
+      "What is the campus area of VCTM?",
+      "How big is the VCTM campus?",
+      "How many acres is the college campus?",
+      "campus size",
+      "VCTM campus area in acres"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "group_colleges",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Vivekananda Group of Colleges comprises:\n1. Vivekananda College of Technology & Management (VCTM, AKTU Code 340)\n2. Vivekananda College of Polytechnic (VCP, BTE Code 1628)\n3. Vivekananda College of Education (VCOE)\n4. Vivekananda College of Law (VCOL)",
+    "questions": [
+      "Which colleges belong to Vivekananda Group of Colleges?",
+      "What are the group institutions of VCTM?",
+      "List colleges in Vivekananda Group Aligarh",
+      "group colleges",
+      "sister colleges of VCTM"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "VCTM",
+    "attribute": "director",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Director of VCTM is **Dr. Y. K. Upadhyaya** (Email: director@vctm.in).",
+    "questions": [
+      "Who is the Director of VCTM?",
+      "Who is the director of the college?",
+      "Name of VCTM Director",
+      "director name",
+      "Who heads VCTM?"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "VCTM",
+    "attribute": "registrar",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Registrar of VCTM is **Mr. Mukesh Kumar** (Email: registrar@vctm.in).",
+    "questions": [
+      "Who is the Registrar of VCTM?",
+      "Who is the college registrar?",
+      "Name of registrar",
+      "registrar name",
+      "Who handles the registrar office?"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "B.Tech CSE",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Computer Science & IT is **Dr. S.K. Verma**.",
+    "questions": [
+      "Who is the HOD of CS?",
+      "Who is the HOD of Computer Science?",
+      "Who is the HOD of CSE?",
+      "Who is the HOD of IT?",
+      "hod cs",
+      "hod computer science",
+      "Head of Computer Science department",
+      "Who leads the Computer Science department?"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "B.Tech Mechanical",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Mechanical Engineering is **Dr. Vivek Sharma**.",
+    "questions": [
+      "Who is the HOD of Mechanical Engineering?",
+      "Who is the head of mechanical department?",
+      "hod mechanical",
+      "hod me",
+      "Head of Mechanical Engineering"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "B.Tech Civil",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Civil Engineering is **Prof. Anuj Chauhan**.",
+    "questions": [
+      "Who is the HOD of Civil Engineering?",
+      "Who heads the civil department?",
+      "hod civil",
+      "hod ce",
+      "Head of Civil Engineering"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "B.Tech Electrical",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Electronics & Electrical Engineering is **Prof. R.P. Gautam**.",
+    "questions": [
+      "Who is the HOD of Electrical Engineering?",
+      "Who is the HOD of ECE?",
+      "Who is the HOD of Electronics?",
+      "hod electrical",
+      "hod ee",
+      "hod ece",
+      "Head of Electrical and Electronics Department"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "B.Tech Agricultural",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Agricultural Engineering is **Prof. D.K. Singh**.",
+    "questions": [
+      "Who is the HOD of Agricultural Engineering?",
+      "Who heads the agricultural engineering department?",
+      "hod agri",
+      "hod agricultural",
+      "Head of Agriculture engineering"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "MBA",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Management Studies (MBA) is **Dr. Anamika Saxena**.",
+    "questions": [
+      "Who is the HOD of MBA?",
+      "Who is the head of management department?",
+      "hod mba",
+      "hod management studies",
+      "Head of MBA Department"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "MCA",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Computer Applications (MCA) is **Prof. Amit Upadhyay**.",
+    "questions": [
+      "Who is the HOD of MCA?",
+      "Who heads computer applications department?",
+      "hod mca",
+      "hod computer applications",
+      "Head of MCA Department"
+    ]
+  },
+  {
+    "intent": "departments",
+    "entity": "Applied Sciences",
+    "attribute": "hod",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The Head of Department (HOD) for Applied Sciences & Humanities is **Dr. Meenakshi Dixit**.",
+    "questions": [
+      "Who is the HOD of Applied Sciences?",
+      "Who heads 1st year engineering physics chemistry?",
+      "hod applied sciences",
+      "hod humanities",
+      "Head of Applied Sciences and Humanities"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "VCTM",
+    "attribute": "all_courses",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The approved academic programmes offered at VCTM are:\n1. **B.Tech (4 Years / 8 Semesters \u00b7 AKTU Code 340):** CSE (120 seats), IT (60 seats), Mechanical (60 seats), Civil (60 seats), ECE (60 seats), Electrical (60 seats), Agricultural Engineering (60 seats)\n2. **Postgraduate Programmes (2 Years \u00b7 AKTU Code 340):** MBA (60 seats), MCA (60 seats), M.Tech Production (18 seats), M.Tech Structural (18 seats)\n3. **Polytechnic Diploma (3 Years \u00b7 BTE Code 1628):** Civil, Mechanical, Electrical, Electronics Engineering (120 seats)",
+    "questions": [
+      "What courses are offered?",
+      "What courses are offered at VCTM?",
+      "What programs are available?",
+      "List all courses",
+      "all courses",
+      "courses offered",
+      "degrees offered at VCTM",
+      "Which courses can I study at VCTM?",
+      "tell me courses",
+      "available courses",
+      "academic programs"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech CSE",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The approved intake for **B.Tech in Computer Science & Engineering (CSE)** is **120 seats**.",
+    "questions": [
+      "What is the intake for B.Tech CSE?",
+      "How many seats are there in B.Tech CSE?",
+      "B.Tech CSE seat capacity",
+      "seats in CSE",
+      "intake for Computer Science Engineering",
+      "How many seats for CSE in VCTM?"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech CSE",
+    "attribute": "duration",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The duration of **B.Tech in Computer Science & Engineering (CSE)** is **4 Years (8 Semesters)**.",
+    "questions": [
+      "What is the duration of B.Tech CSE?",
+      "How many years is B.Tech Computer Science?",
+      "duration of BTech CSE",
+      "how long is BTech CSE course?"
+    ]
+  },
+  {
+    "intent": "eligibility_criteria",
+    "entity": "B.Tech CSE",
+    "attribute": "eligibility",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The eligibility for **B.Tech in Computer Science & Engineering (CSE)** is: Passed 10+2 examination with Physics and Mathematics compulsory along with Chemistry/Computer Science/Biology, with at least **45% marks** (40% for SC/ST reserved categories).",
+    "questions": [
+      "What is the eligibility for B.Tech CSE?",
+      "eligibility criteria for CSE",
+      "Can I get BTech CSE with 50% in 12th?",
+      "What marks are required for Computer Science in 12th?",
+      "12th marks needed for B.Tech CSE"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech IT",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **B.Tech in Information Technology (IT)** is **60 seats**.",
+    "questions": [
+      "What is the intake for B.Tech IT?",
+      "How many seats in BTech IT?",
+      "seats in IT branch",
+      "intake in Information Technology"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech Mechanical",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **B.Tech in Mechanical Engineering (ME)** is **60 seats**.",
+    "questions": [
+      "What is the intake for B.Tech Mechanical?",
+      "How many seats in Mechanical Engineering?",
+      "seats in mechanical engineering",
+      "intake for ME branch"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech Mechanical",
+    "attribute": "duration",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The duration of **B.Tech in Mechanical Engineering (ME)** is **4 Years (8 Semesters)**.",
+    "questions": [
+      "What is the duration of B.Tech Mechanical?",
+      "How many years is Mechanical Engineering?",
+      "duration of BTech ME"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech Civil",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **B.Tech in Civil Engineering (CE)** is **60 seats**.",
+    "questions": [
+      "What is the intake for B.Tech Civil?",
+      "How many seats in Civil Engineering?",
+      "seats in civil engineering",
+      "intake for CE branch"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech ECE",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **B.Tech in Electronics & Communication Engineering (ECE)** is **60 seats**.",
+    "questions": [
+      "What is the intake for B.Tech ECE?",
+      "How many seats in Electronics and Communication?",
+      "seats in ECE",
+      "intake for ECE branch"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech Electrical",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **B.Tech in Electrical Engineering (EE)** is **60 seats**.",
+    "questions": [
+      "What is the intake for B.Tech Electrical?",
+      "How many seats in Electrical Engineering?",
+      "seats in EE branch",
+      "intake for EE"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "B.Tech Agricultural",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **B.Tech in Agricultural Engineering** is **60 seats**.",
+    "questions": [
+      "What is the intake for B.Tech Agricultural Engineering?",
+      "How many seats in Agricultural Engineering?",
+      "seats in agriculture engineering",
+      "intake for Agricultural Engineering"
+    ]
+  },
+  {
+    "intent": "eligibility_criteria",
+    "entity": "B.Tech",
+    "attribute": "eligibility",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The eligibility for all **B.Tech** branches is: 10+2 with Physics and Mathematics compulsory along with Chemistry/CS/Biology/Agriculture, with at least **45% aggregate marks** (40% for SC/ST reserved category candidates).",
+    "questions": [
+      "What is the eligibility for B.Tech?",
+      "B.Tech eligibility criteria",
+      "Can I get admission in B.Tech with 45% in 12th?",
+      "What subjects are compulsory in 12th for B.Tech?",
+      "PCM requirements for B.Tech"
+    ]
+  },
+  {
+    "intent": "eligibility_criteria",
+    "entity": "B.Tech Lateral Entry",
+    "attribute": "eligibility",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The eligibility for **B.Tech Lateral Entry (Direct 2nd Year)** is: A 3-year Polytechnic Diploma in Engineering or B.Sc. with Mathematics with at least **45% aggregate marks** (40% for SC/ST). Duration is 3 Years (6 Semesters).",
+    "questions": [
+      "What is the eligibility for B.Tech Lateral Entry?",
+      "Can diploma holders join 2nd year B.Tech directly?",
+      "lateral entry eligibility",
+      "B.Tech 2nd year direct admission after polytechnic",
+      "Can B.Sc students apply for lateral entry?"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "MBA",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **Master of Business Administration (MBA)** is **60 seats**.",
+    "questions": [
+      "What is the intake for MBA?",
+      "How many seats in MBA?",
+      "MBA seats at VCTM",
+      "intake for MBA course"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "MBA",
+    "attribute": "duration",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The duration of the **MBA** programme is **2 Years (4 Semesters)**.",
+    "questions": [
+      "What is the duration of MBA?",
+      "How many years is MBA?",
+      "duration of MBA at VCTM"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "MBA",
+    "attribute": "specializations",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The specializations offered in **MBA** are: **Marketing, Financial Management, Human Resource (HR) Management, and Information Technology (IT)**.",
+    "questions": [
+      "What are the specializations in MBA?",
+      "Which MBA branches are available?",
+      "MBA specializations",
+      "Does VCTM offer MBA in HR and Finance?",
+      "Marketing specialization in MBA"
+    ]
+  },
+  {
+    "intent": "eligibility_criteria",
+    "entity": "MBA",
+    "attribute": "eligibility",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The eligibility for **MBA** is: A recognized 3-year Bachelor's degree in any discipline with at least **50% marks** (45% for SC/ST reserved categories).",
+    "questions": [
+      "What is the eligibility for MBA?",
+      "MBA eligibility criteria",
+      "Graduation percentage required for MBA",
+      "Can BA or B.Com graduates apply for MBA?"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "MCA",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The sanctioned intake for **Master of Computer Applications (MCA)** is **60 seats**.",
+    "questions": [
+      "What is the intake for MCA?",
+      "How many seats in MCA at VCTM?",
+      "MCA seats intake",
+      "seat capacity for MCA"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "MCA",
+    "attribute": "duration",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The duration of the **MCA** programme is **2 Years (4 Semesters)**.",
+    "questions": [
+      "What is the duration of MCA?",
+      "How many years is MCA at VCTM?",
+      "duration of MCA"
+    ]
+  },
+  {
+    "intent": "eligibility_criteria",
+    "entity": "MCA",
+    "attribute": "eligibility",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The eligibility for **MCA** is: BCA / B.Sc. (Computer Science / IT) or graduation with Mathematics at 10+2 or degree level, with at least **50% marks** (45% for SC/ST).",
+    "questions": [
+      "What is the eligibility for MCA?",
+      "MCA eligibility criteria",
+      "Can non-maths students apply for MCA?",
+      "Graduation marks required for MCA"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "M.Tech",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "VCTM offers **M.Tech (2 Years)** in: 1. Production Engineering (**18 seats**) and 2. Structural Engineering (**18 seats**).",
+    "questions": [
+      "What is the intake for M.Tech?",
+      "How many seats in M.Tech at VCTM?",
+      "M.Tech specializations and seats",
+      "MTech production engineering seats",
+      "MTech structural engineering seats"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "Polytechnic Diploma",
+    "attribute": "intake",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The approved intake for **Polytechnic Diploma in Engineering (BTE Code 1628)** is **120 seats total** across Civil, Mechanical, Electrical, and Electronics branches.",
+    "questions": [
+      "What is the intake for Polytechnic Diploma?",
+      "How many seats in Polytechnic?",
+      "Polytechnic diploma seats",
+      "intake in diploma engineering"
+    ]
+  },
+  {
+    "intent": "course_details",
+    "entity": "Polytechnic Diploma",
+    "attribute": "duration",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The duration of the **Polytechnic Diploma in Engineering** is **3 Years (6 Semesters)**.",
+    "questions": [
+      "What is the duration of Polytechnic Diploma?",
+      "How many years is diploma in engineering?",
+      "duration of polytechnic"
+    ]
+  },
+  {
+    "intent": "eligibility_criteria",
+    "entity": "Polytechnic Diploma",
+    "attribute": "eligibility",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/courses",
+    "verification_status": "verified",
+    "answer": "The eligibility for **Polytechnic Diploma** is: 10th High School passed with Science and Mathematics with at least **35% marks**.",
+    "questions": [
+      "What is the eligibility for Polytechnic Diploma?",
+      "polytechnic eligibility",
+      "Can 10th pass apply for diploma engineering?",
+      "Minimum percentage for polytechnic"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "highest_package",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "The highest package recorded at VCTM is **\u20b912.0 LPA** (offered by select corporate recruiters in campus recruitment drives).",
+    "questions": [
+      "What is the highest package in placement?",
+      "What was the highest package offered at VCTM?",
+      "highest package",
+      "highest salary at VCTM",
+      "What is the max package in VCTM?",
+      "highest package recorded",
+      "What is the highest salary offered to a student?"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "average_package",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "The average salary package at VCTM ranges between **\u20b93.80 LPA and \u20b94.50 LPA** depending on the branch and company role.",
+    "questions": [
+      "What is the average package?",
+      "What is the average salary at VCTM?",
+      "average package",
+      "average placement package",
+      "What salary package can an average student expect?"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "placement_rate",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "VCTM provides an **85%+ active placement assistance rate** through its Corporate Resource Centre (CRC).",
+    "questions": [
+      "What is the placement percentage?",
+      "What is the placement rate at VCTM?",
+      "placement percentage",
+      "How many percent students get placed?",
+      "placement success rate"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "students_placed",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "Over **200+ students** were successfully placed across recent batch campus placement drives.",
+    "questions": [
+      "How many students got placed?",
+      "number of students placed",
+      "total students placed",
+      "How many job offers were made?"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "recruiters",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "Top corporate recruiters visiting VCTM include **Tata Consultancy Services (TCS), Infosys, Wipro Technologies, HCL Technologies, Tech Mahindra, Cognizant, Pie Infocomm, Motherson Group, Daffodil Software, and Bajaj Motors**.",
+    "questions": [
+      "Which companies visit VCTM for recruitment?",
+      "Who are the top recruiters?",
+      "top recruiters",
+      "Which companies hire from VCTM?",
+      "Does TCS and Infosys visit VCTM?",
+      "companies recruiting at VCTM",
+      "list of recruiting companies"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "branch_wise",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "Branch-wise placement highlights:\n\u2022 **CSE & IT:** Highest recruitment volume in software development, cloud, and IT services.\n\u2022 **Mechanical & Civil:** Core engineering placement drives in automotive, manufacturing, and construction.\n\u2022 **MBA:** Corporate roles in marketing, banking, finance, and HR.",
+    "questions": [
+      "What are the branch-wise placement statistics?",
+      "branch-wise placement details",
+      "How are placements in CSE compared to Mechanical?",
+      "MBA placement highlights",
+      "core branch placements"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "internships",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "The Corporate Resource Centre (CRC) facilitates **4 to 6-week mandatory summer industrial internships** with partner companies across Delhi-NCR and Western Uttar Pradesh.",
+    "questions": [
+      "Are internships provided at VCTM?",
+      "Does college provide internship opportunities?",
+      "summer internship support",
+      "industrial training and internships",
+      "internship assistance"
+    ]
+  },
+  {
+    "intent": "placements",
+    "entity": "VCTM Placement Cell",
+    "attribute": "overview",
+    "academic_year": "2024-2025",
+    "source_url": "https://vctm.in/placement",
+    "verification_status": "verified",
+    "answer": "VCTM Placements Summary:\n\u2022 **Highest Package:** \u20b912.0 LPA\n\u2022 **Average Package:** \u20b93.80 LPA \u2013 \u20b94.50 LPA\n\u2022 **Placement Assistance:** 85%+\n\u2022 **Top Recruiters:** TCS, Infosys, Wipro, HCL, Tech Mahindra, Cognizant, Pie Infocomm, Motherson Group, Bajaj Motors\n\u2022 **Placement Cell:** Dedicated Corporate Resource Centre (CRC)",
+    "questions": [
+      "How are the placements?",
+      "Tell me about placements at VCTM",
+      "How are placements at VCTM Aligarh?",
+      "placement details",
+      "placement overview"
+    ]
+  },
+  {
+    "intent": "fees_structure",
+    "entity": "VCTM",
+    "attribute": "fee_policy",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Tuition fees for all programs at VCTM are strictly governed by the **Uttar Pradesh State Fee Regulatory Committee (Fee Fixation Committee)** and AKTU/BTE directives. Specific session fee schedules and installment circulars are issued directly by the VCTM Admission Cell (+91 94540 10846 / info@vctm.in).",
+    "questions": [
+      "What is the fee structure?",
+      "How much is the fee at VCTM?",
+      "btech fees",
+      "What are the fees for engineering?",
+      "fees policy",
+      "tell me about college fees",
+      "Are fees fixed by UP government?"
+    ]
+  },
+  {
+    "intent": "fees_structure",
+    "entity": "VCTM",
+    "attribute": "installment_policy",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Yes, academic tuition fees can be paid in semester-wise installments via NetBanking, UPI, Demand Draft, or at the college fee deposition counter.",
+    "questions": [
+      "Can I pay fees in installments?",
+      "Is installment facility available for fee payment?",
+      "semester fee installment",
+      "fee payment modes"
+    ]
+  },
+  {
+    "intent": "admissions",
+    "entity": "VCTM",
+    "attribute": "admission_process",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Admissions are conducted through two streams:\n1. **Counseling Quota (85% seats):** Through AKTU UPTAC / JEECUP online counseling using JEE Main / CUET / JEECUP scores (AKTU Code: **340**, BTE Code: **1628**).\n2. **Direct Admission / Management Quota (15% seats):** Merit-based direct admission based on 10+2 / graduation marks at the college campus admission cell.",
+    "questions": [
+      "How can I take admission in VCTM?",
+      "What is the admission procedure?",
+      "admission process",
+      "how to apply for admission",
+      "How do I take admission in VCTM college?",
+      "admission procedure for B.Tech"
+    ]
+  },
+  {
+    "intent": "admissions",
+    "entity": "VCTM",
+    "attribute": "direct_admission",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Yes, direct merit admission (Management Quota - 15% seats) is available for eligible candidates based on 10+2 PCM or qualifying graduation marks at the VCTM Admission Cell on Mathura Bypass.",
+    "questions": [
+      "Can I get direct admission in VCTM?",
+      "Is direct admission available?",
+      "Can I get admission without JEE Main?",
+      "management quota admission",
+      "direct admission criteria"
+    ]
+  },
+  {
+    "intent": "admissions",
+    "entity": "VCTM",
+    "attribute": "documents_required",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Documents required for admission:\n1. 10th & 12th Marksheet and Passing Certificate\n2. JEE Main / CUET / JEECUP Scorecard (if applicable)\n3. Aadhaar Card photocopy\n4. UP Domicile Certificate (for scholarship / quota)\n5. Category / Caste Certificate (if applicable)\n6. Transfer Certificate (TC) & Character Certificate\n7. Passport-size photographs",
+    "questions": [
+      "What documents are needed for admission?",
+      "documents required for admission",
+      "Which certificates to bring for admission?",
+      "admission document checklist"
+    ]
+  },
+  {
+    "intent": "hostel_mess",
+    "entity": "Girls Hostel",
+    "attribute": "curfew_girls",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The entry curfew time for the Girls Hostel is strictly **7:00 PM**.",
+    "questions": [
+      "What is the curfew time for girls hostel?",
+      "girls hostel curfew",
+      "Till what time can girls enter the hostel?",
+      "What is the gate closing time for girls hostel?"
+    ]
+  },
+  {
+    "intent": "hostel_mess",
+    "entity": "Boys Hostel",
+    "attribute": "curfew_boys",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The entry curfew time for the Boys Hostel is **8:30 PM**.",
+    "questions": [
+      "What is the curfew time for boys hostel?",
+      "boys hostel curfew",
+      "Till what time can boys enter the hostel?",
+      "boys hostel gate closing time"
+    ]
+  },
+  {
+    "intent": "hostel_mess",
+    "entity": "VCTM Mess",
+    "attribute": "mess_food",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The hostel mess serves **100% pure vegetarian nutritious meals** 4 times daily (Breakfast, Lunch, Evening Tea & Snacks, and Dinner).",
+    "questions": [
+      "How is the mess food?",
+      "Is non-veg food served in mess?",
+      "What type of food is provided in the mess?",
+      "mess meals per day",
+      "hostel food details"
+    ]
+  },
+  {
+    "intent": "hostel_mess",
+    "entity": "VCTM Hostel",
+    "attribute": "hostel_amenities",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM has separate on-campus hostels for Boys and Girls equipped with 24/7 power backup, high-speed Wi-Fi, purified RO drinking water, resident wardens, and CCTV camera security.",
+    "questions": [
+      "What hostel facilities are available?",
+      "Does VCTM have separate hostels for boys and girls?",
+      "hostel facilities",
+      "Are hostels available on campus?",
+      "hostel amenities"
+    ]
+  },
+  {
+    "intent": "transportation",
+    "entity": "VCTM Bus Fleet",
+    "attribute": "bus_routes",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM operates 6 major bus routes covering:\n1. Aligarh Junction Railway Station & Center Point\n2. Sasni Gate & Agra Road\n3. Quarsi & Kwarsi Bypass / Medical Road\n4. Khair Road & Nada Pul Highway\n5. Hathras City & Sasni Town\n6. Mathura Bypass & Iglas",
+    "questions": [
+      "What are the bus routes for VCTM?",
+      "Does VCTM provide college bus service?",
+      "college bus routes",
+      "bus facility",
+      "Which areas are covered by college bus?",
+      "Does bus come to Hathras or Sasni?"
+    ]
+  },
+  {
+    "intent": "scholarships",
+    "entity": "UP Government Scholarship",
+    "attribute": "scholarship_up",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Eligible UP domicile students can receive up to **100% tuition reimbursement** under the UP Post-Matric Scholarship Scheme (Social Welfare Department) if annual family income is below \u20b92.0 Lakh (General/OBC/Minority) or \u20b92.5 Lakh (SC/ST). Apply via scholarship.up.gov.in.",
+    "questions": [
+      "What scholarships are available?",
+      "Can I get UP government post-matric scholarship?",
+      "UP scholarship eligibility",
+      "scholarships at VCTM",
+      "fee reimbursement for SC ST students",
+      "samaj kalyan scholarship"
+    ]
+  },
+  {
+    "intent": "scholarships",
+    "entity": "VCTM Merit Scholarship",
+    "attribute": "scholarship_merit",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM offers a **15% to 25% tuition fee waiver** for 1st year to meritorious students scoring 80% and above in 10+2 board examinations or securing top ranks in JEE Main / CUET.",
+    "questions": [
+      "Does VCTM offer merit scholarships?",
+      "merit scholarship for 12th marks",
+      "fee waiver for high percentage students",
+      "college merit scholarship"
+    ]
+  },
+  {
+    "intent": "examinations",
+    "entity": "VCTM",
+    "attribute": "attendance_rule",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "A minimum of **75% attendance** in theory lectures and practical labs is strictly mandatory to receive the university examination admit card.",
+    "questions": [
+      "What is the attendance requirement for exams?",
+      "attendance requirement",
+      "Is 75% attendance compulsory?",
+      "What happens if attendance is less than 75%?",
+      "attendance rule for admit card"
+    ]
+  },
+  {
+    "intent": "examinations",
+    "entity": "VCTM",
+    "attribute": "exam_pattern",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM follows the AKTU Semester System with 2 semesters per academic year. Evaluation consists of **30% internal assessment** (two sessional tests, assignments, attendance) and **70% end-semester university examination** conducted by AKTU (Code 340) / BTE UP (Code 1628).",
+    "questions": [
+      "What is the exam pattern at VCTM?",
+      "How many sessional exams are conducted?",
+      "exam schedule",
+      "internal assessment marks weightage",
+      "semester examination pattern"
+    ]
+  },
+  {
+    "intent": "contact_details",
+    "entity": "VCTM",
+    "attribute": "phone",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/contact",
+    "verification_status": "verified",
+    "answer": "The official helpline numbers for VCTM are **+91 94540 10846, +91 79064 87855, +91 97560 79797, and 0571-2513913**.",
+    "questions": [
+      "What is the phone number of the college?",
+      "How can I contact VCTM?",
+      "helpline number",
+      "phone number of Vivekananda college",
+      "contact number of VCTM",
+      "admission helpline phone"
+    ]
+  },
+  {
+    "intent": "contact_details",
+    "entity": "VCTM",
+    "attribute": "email",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in/contact",
+    "verification_status": "verified",
+    "answer": "The official email addresses for VCTM are **info@vctm.in** and **vctmaligarh@gmail.com** (Director: director@vctm.in, Registrar: registrar@vctm.in).",
+    "questions": [
+      "What is the official email address of VCTM?",
+      "email id of college",
+      "VCTM email address",
+      "Where to email VCTM?"
+    ]
+  },
+  {
+    "intent": "contact_details",
+    "entity": "VCTM",
+    "attribute": "website",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The official website of VCTM is **https://vctm.in**.",
+    "questions": [
+      "What is the official website of VCTM?",
+      "college website link",
+      "VCTM portal",
+      "official site"
+    ]
+  },
+  {
+    "intent": "location",
+    "entity": "VCTM",
+    "attribute": "address",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM is located at **Mathura Bypass, Near Khair Road, 500 meters from Nada Pul, Aligarh - 202002, Uttar Pradesh**.",
+    "questions": [
+      "Where is the college located?",
+      "Where is VCTM college located?",
+      "What is the address of Vivekananda college?",
+      "college address",
+      "location of VCTM",
+      "How to reach VCTM?"
+    ]
+  },
+  {
+    "intent": "location",
+    "entity": "VCTM",
+    "attribute": "distance_station",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "VCTM is located approximately **5 to 7 km** from Aligarh Junction Railway Station (about 15 minutes by road via auto or college bus).",
+    "questions": [
+      "How far is VCTM from Aligarh railway station?",
+      "distance from aligarh station",
+      "How to reach VCTM from railway station?",
+      "railway station to VCTM distance"
+    ]
+  },
+  {
+    "intent": "contact_details",
+    "entity": "VCTM",
+    "attribute": "working_hours",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "The college administrative office hours are **Monday to Saturday, 9:00 AM to 5:00 PM** (Closed on Sundays).",
+    "questions": [
+      "What are the office working hours?",
+      "college timings",
+      "office hours",
+      "When is the admission office open?",
+      "Is the college open on Saturday?"
+    ]
+  },
+  {
+    "intent": "greeting",
+    "entity": "VCTM",
+    "attribute": "greeting",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Hello! Welcome to Vivekananda College of Technology & Management (VCTM, Aligarh \u00b7 AKTU Code: 340, BTE Code: 1628). How can I assist you today with courses, admissions, eligibility, fees, or placements?",
+    "questions": [
+      "hello",
+      "hi",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "namaste",
+      "hello assistant",
+      "hi there",
+      "is anyone there",
+      "hey there",
+      "greetings"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "entity": "VCTM",
+    "attribute": "thanks",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "You're welcome! Feel free to ask if you have any more questions about VCTM courses, admissions, or campus facilities.",
+    "questions": [
+      "thank you",
+      "thanks",
+      "thanks a lot",
+      "thank you so much",
+      "much appreciated",
+      "thanks for your help",
+      "thank you for the information",
+      "ok thanks",
+      "thank you assistant"
+    ]
+  },
+  {
+    "intent": "goodbye",
+    "entity": "VCTM",
+    "attribute": "goodbye",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "Goodbye! Wishing you all the best with your studies and admission process. Have a great day!",
+    "questions": [
+      "bye",
+      "goodbye",
+      "see you later",
+      "take care",
+      "exit",
+      "bye bye",
+      "see you",
+      "good night",
+      "have a good day"
+    ]
+  },
+  {
+    "intent": "fallback",
+    "entity": "VCTM",
+    "attribute": "fallback",
+    "academic_year": "2025-2026",
+    "source_url": "https://vctm.in",
+    "verification_status": "verified",
+    "answer": "This specific information is not available in the verified VCTM dataset. For official assistance, please contact the VCTM Helpdesk at +91 94540 10846 or info@vctm.in.",
+    "questions": [
+      "What is the capital of France?",
+      "Who won the cricket world cup?",
+      "How to bake a chocolate cake?",
+      "Explain quantum physics in detail",
+      "Write a poem about nature",
+      "What is the weather today?",
+      "Tell me a joke",
+      "Who is the president of America?",
+      "How to repair a bicycle tyre?",
+      "asdfghjkl qwertyuiop"
+    ]
+  }
+]
