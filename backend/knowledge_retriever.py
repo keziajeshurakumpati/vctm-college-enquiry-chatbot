@@ -22,6 +22,15 @@ BASE_DIR = os.path.dirname(__file__)
 DATA_DIR = os.path.join(BASE_DIR, "data")
 QA_FILE = os.path.join(DATA_DIR, "vctm_verified_qa.json")
 
+INTENT_DEFAULTS = {
+    "course_details": ("VCTM", "all_courses"),
+    "placements": ("VCTM Placement Cell", "overview"),
+    "hostel_mess": ("VCTM Hostel", "hostel_facilities"),
+    "examinations": ("VCTM", "exam_pattern"),
+    "admissions": ("VCTM", "admission_process"),
+    "fees_structure": ("VCTM", "fee_policy"),
+}
+
 class KnowledgeRetriever:
     def __init__(self):
         self.qa_records: List[Dict] = []
@@ -127,6 +136,28 @@ class KnowledgeRetriever:
                     return record
         return None
 
+    @staticmethod
+    def _normalize_question(text: str) -> str:
+        return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", text.casefold())).strip()
+
+    def _find_intent_default(self, intent: str) -> Optional[Dict]:
+        default = INTENT_DEFAULTS.get(intent)
+        if not default:
+            return None
+
+        entity, attribute = default
+        return next(
+            (
+                record
+                for record in self.qa_records
+                if record["intent"] == intent
+                and record["entity"].casefold() == entity.casefold()
+                and record["attribute"] == attribute
+                and record.get("verification_status") == "verified"
+            ),
+            None,
+        )
+
     def retrieve_response(self, query: str, predicted_intent: str, entities: Dict) -> Dict:
         """
         Retrieves specific answer matching Intent + Entity + Attribute.
@@ -207,6 +238,25 @@ class KnowledgeRetriever:
             predicted_intent = "placements"
             entity = "VCTM Placement Cell"
             attributes = ["students_placed"]
+
+        normalized_query = self._normalize_question(query)
+        exact_question_record = next(
+            (
+                record
+                for record in self.qa_records
+                if record["intent"] == predicted_intent
+                and self._normalize_question(record["question"]) == normalized_query
+            ),
+            None,
+        )
+        if exact_question_record:
+            return {
+                "text": exact_question_record["answer"],
+                "sourceReference": (
+                    f"Official VCTM Portal "
+                    f"({exact_question_record.get('source_url', 'https://vctm.in')})"
+                ),
+            }
 
         # 1. Dedicated Conversation Intents
         if predicted_intent == "greeting" or re.search(r"^(hi|hello|hey|namaste|good\s+morning|good\s+afternoon|good\s+evening)\b", q_lower):
@@ -295,27 +345,15 @@ class KnowledgeRetriever:
                 "sourceReference": "Official VCTM Course Directory (https://vctm.in/courses)"
             }
 
-        # 5. Intent-level default matching
-        matched_rec = None
-        for record in self.qa_records:
-            if record["intent"] == predicted_intent:
-                # Prioritize matching query text similarity or keywords
-                if any(w in q_lower for w in record["question"].lower().split() if len(w) > 3):
-                    matched_rec = record
-                    break
-        if not matched_rec:
-            for record in self.qa_records:
-                if record["intent"] == predicted_intent:
-                    matched_rec = record
-                    break
-
-        if matched_rec:
+        # 5. Use only an explicitly verified broad answer for the predicted intent.
+        default_rec = self._find_intent_default(predicted_intent)
+        if default_rec:
             return {
-                "text": matched_rec["answer"],
-                "sourceReference": f"Official VCTM Portal ({matched_rec.get('source_url', 'https://vctm.in')})"
+                "text": default_rec["answer"],
+                "sourceReference": f"Official VCTM Portal ({default_rec.get('source_url', 'https://vctm.in')})"
             }
 
-        # 6. Fallback if information is not available in verified dataset
+        # 6. Avoid returning an unrelated KB fact when no safe intent default exists.
         return {
             "text": "This specific information is not available in the verified VCTM dataset. For official verified records, please contact the VCTM Helpdesk at +91 94540 10846 or info@vctm.in.",
             "sourceReference": "Official VCTM Helpdesk (https://vctm.in)",
