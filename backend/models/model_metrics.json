@@ -1,11 +1,11 @@
 {
   "model_type": "LogisticRegression",
   "solver": "Multinomial Softmax (Cross-Entropy SGD)",
-  "train_samples": 614,
-  "test_samples": 153,
-  "test_accuracy": 0.8954,
-  "total_samples": 767,
-  "vocab_size": 1170,
+  "train_samples": 648,
+  "test_samples": 162,
+  "test_accuracy": 0.9074,
+  "total_samples": 810,
+  "vocab_size": 1274,
   "intent_classes_count": 20,
   "intent_classes": [
     "admissions",
@@ -30,5 +30,5 @@
     "transportation"
   ],
   "evaluation": "held-out test set; no exact example overlap with train set",
-  "trained_at": "2026-10-03T08:02:23Z"
+  "trained_at": "2026-10-05T14:55:08Z"
 }

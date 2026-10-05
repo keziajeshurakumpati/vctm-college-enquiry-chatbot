@@ -6,6 +6,7 @@ from the cleaned official VCTM knowledge base and queries.
 import json
 import logging
 import os
+import re
 from typing import Dict, List
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -202,11 +203,86 @@ INTENT_SEED_PATTERNS = {
 
 from build_verified_dataset import build_datasets, QA_DATASET_FILE, TRAINING_FILE
 
+SUPPLEMENTAL_TRAINING_EXAMPLES = {
+    "admissions": [
+        "admissions",
+        "how do I apply?",
+        "How do I apply for admission to VCTM?",
+        "How can I submit an application to VCTM?",
+        "What steps should I follow to get admission?",
+        "How does the VCTM admission process work?",
+        "Where should I begin if I want to enroll at VCTM?",
+        "Where do I find information about admissions at VCTM?",
+        "Tell me about VCTM admissions.",
+    ],
+    "eligibility_criteria": [
+        "what marks do I need to get admission?",
+        "What minimum marks are needed to qualify for admission?",
+        "What are the academic entry requirements for VCTM?",
+        "Am I eligible for admission with my 12th marks?",
+        "What percentage is required for B.Tech admission?",
+        "Who qualifies for admission to the program?",
+    ],
+    "scholarships": [
+        "does VCTM offer financial aid?",
+        "Does VCTM provide financial assistance to students?",
+        "What student aid or scholarships can I apply for?",
+        "Is financial support available at the college?",
+        "Can students receive help with tuition fees?",
+        "Are scholarships or fee support offered by VCTM?",
+        "Does the college assist students with tuition payments?",
+        "Can students get help paying their tuition fees?",
+        "Can VCTM help students pay for tuition?",
+    ],
+    "facilities_campus": [
+        "facilities",
+        "what facilities does VCTM have?",
+        "tell me about the college campus facilities",
+        "What facilities are available across the VCTM campus?",
+        "What amenities and services can students use on campus?",
+        "What resources does the college campus provide?",
+        "Describe the facilities available to VCTM students.",
+        "Which student facilities are available at the college?",
+        "Campus amenities at VCTM",
+        "What resources can students access at VCTM?",
+    ],
+    "departments": [
+        "departments",
+        "What departments does VCTM have?",
+        "List the academic departments at VCTM.",
+        "Which departments are offered at the college?",
+        "Show me the department list.",
+        "Tell me about the departments at VCTM.",
+        "What academic divisions does the college have?",
+    ],
+}
+
+
 def generate_training_dataset() -> List[Dict]:
-    """Generates the full verified Q&A dataset and labeled training dataset."""
+    """Generates verified training examples plus training-only query variations."""
     build_datasets()
     with open(TRAINING_FILE, "r", encoding="utf-8") as f:
         dataset = json.load(f)
+
+    existing = {
+        (
+            re.sub(r"\s+", " ", item["text"].casefold()).strip(),
+            item["intent"],
+        )
+        for item in dataset
+    }
+    added = 0
+    for intent, examples in SUPPLEMENTAL_TRAINING_EXAMPLES.items():
+        for text in examples:
+            key = (re.sub(r"\s+", " ", text.casefold()).strip(), intent)
+            if key not in existing:
+                dataset.append({"text": text, "intent": intent})
+                existing.add(key)
+                added += 1
+
+    with open(TRAINING_FILE, "w", encoding="utf-8") as f:
+        json.dump(dataset, f, indent=2, ensure_ascii=False)
+    logger.info("Added %s training-only query variations.", added)
     return dataset
 
 if __name__ == "__main__":

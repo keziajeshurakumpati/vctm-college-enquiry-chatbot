@@ -1880,6 +1880,10 @@
     "intent": "placements"
   },
   {
+    "text": "What is the lowest package reported at VCTM?",
+    "intent": "placements"
+  },
+  {
     "text": "How many students were placed from VCTM?",
     "intent": "placements"
   },
@@ -2029,6 +2033,10 @@
   },
   {
     "text": "placement records",
+    "intent": "placements"
+  },
+  {
+    "text": "What placement activities does VCTM offer?",
     "intent": "placements"
   },
   {
@@ -3066,5 +3074,169 @@
   {
     "text": "asdfghjkl qwertyuiop",
     "intent": "fallback"
+  },
+  {
+    "text": "admissions",
+    "intent": "admissions"
+  },
+  {
+    "text": "how do I apply?",
+    "intent": "admissions"
+  },
+  {
+    "text": "How do I apply for admission to VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "How can I submit an application to VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "What steps should I follow to get admission?",
+    "intent": "admissions"
+  },
+  {
+    "text": "How does the VCTM admission process work?",
+    "intent": "admissions"
+  },
+  {
+    "text": "Where should I begin if I want to enroll at VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "Where do I find information about admissions at VCTM?",
+    "intent": "admissions"
+  },
+  {
+    "text": "Tell me about VCTM admissions.",
+    "intent": "admissions"
+  },
+  {
+    "text": "what marks do I need to get admission?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What minimum marks are needed to qualify for admission?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What are the academic entry requirements for VCTM?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Am I eligible for admission with my 12th marks?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "What percentage is required for B.Tech admission?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "Who qualifies for admission to the program?",
+    "intent": "eligibility_criteria"
+  },
+  {
+    "text": "does VCTM offer financial aid?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Does VCTM provide financial assistance to students?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "What student aid or scholarships can I apply for?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Is financial support available at the college?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Can students receive help with tuition fees?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Are scholarships or fee support offered by VCTM?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Does the college assist students with tuition payments?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Can students get help paying their tuition fees?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "Can VCTM help students pay for tuition?",
+    "intent": "scholarships"
+  },
+  {
+    "text": "facilities",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "what facilities does VCTM have?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "tell me about the college campus facilities",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "What facilities are available across the VCTM campus?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "What amenities and services can students use on campus?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "What resources does the college campus provide?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "Describe the facilities available to VCTM students.",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "Which student facilities are available at the college?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "Campus amenities at VCTM",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "What resources can students access at VCTM?",
+    "intent": "facilities_campus"
+  },
+  {
+    "text": "departments",
+    "intent": "departments"
+  },
+  {
+    "text": "What departments does VCTM have?",
+    "intent": "departments"
+  },
+  {
+    "text": "List the academic departments at VCTM.",
+    "intent": "departments"
+  },
+  {
+    "text": "Which departments are offered at the college?",
+    "intent": "departments"
+  },
+  {
+    "text": "Show me the department list.",
+    "intent": "departments"
+  },
+  {
+    "text": "Tell me about the departments at VCTM.",
+    "intent": "departments"
+  },
+  {
+    "text": "What academic divisions does the college have?",
+    "intent": "departments"
   }
 ]
